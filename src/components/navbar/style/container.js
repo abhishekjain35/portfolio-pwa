@@ -23,9 +23,7 @@ export const NavIcon = styled.div`
     padding-left: 5px;
     display: flex;
     flex-direction: column;
-    // background-color: orange;
-
-    height: 30vh;
+    height: 35vh;
     justify-content: space-around;
 `;
 
