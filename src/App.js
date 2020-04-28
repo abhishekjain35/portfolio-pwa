@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./containers/navbar/index";
-import {ThemeProvider} from "emotion-theming";
+import { ThemeProvider } from "emotion-theming";
 
 const Home = lazy(() => import("./containers/home/index"));
 
@@ -14,7 +14,7 @@ const HomePage = () => (
 
 const App = () => {
     return (
-        <ThemeProvider theme={{color: "white"}}>
+        <ThemeProvider theme={{ color: "white" }}>
             <Navbar />
             <Route path="/">
                 <HomePage />
