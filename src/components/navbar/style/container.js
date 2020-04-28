@@ -48,7 +48,7 @@ export const HoverDiv = styled.div`
 export const HoverTxt = styled.span`
     position: absolute;
     padding: 17px 0;
-    padding-left: ${props => props.paddLeft ? props.paddLeft : "8px"};
+    padding-left: ${({paddLeft}) => paddLeft ? paddLeft : "8px"};
     color: #08fdd8;
     font-size: 9px;
     letter-spacing: 2px;
