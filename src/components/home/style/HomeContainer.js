@@ -1,13 +1,25 @@
 import styled from "@emotion/styled";
 
-const HomeContainer = styled.div`
+export const HomeContainer = styled.div`
     color: white;
     position: absolute;
     left: 10%;
-    top: 50%;
-    &:hover{
-        color: red;
+    top: 30%;
+    :hover {
+        color: orange;
     }
+    width: 40%;
+    height: 50%;
 `;
 
-export default HomeContainer;
+export const HeadContainer = styled.div`
+    font-size: 3.2vw;
+    font-weight: 700;
+    // position: absolute;
+    // top: 50%;
+    // left: 25%;
+`;
+
+export const StyledSpan = styled.span`
+    color: #fff;
+`;
