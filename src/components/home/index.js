@@ -3,14 +3,16 @@ import {
     HomeContainer,
     HeadContainer,
     StyledSpan,
+    BodySpan,
+    BottomTags
 } from "./style/HomeContainer";
 
 const HomePage = () => {
     let info = "Hi,$I'm Abhishek,$web developer.";
-    console.log(info.split(""))
 
     return (
         <HomeContainer>
+            <BodySpan>&lt;body&gt;</BodySpan>
             <HeadContainer>
                 {info.split("").map((letter, index) => {
                     if (letter === "$") {
@@ -24,6 +26,7 @@ const HomePage = () => {
                     );
                 })}
             </HeadContainer>
+            <BottomTags>&lt;/body&gt; <br /> &lt;/html&gt;</BottomTags>
         </HomeContainer>
     );
 };
