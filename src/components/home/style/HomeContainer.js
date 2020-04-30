@@ -2,17 +2,16 @@ import styled from "@emotion/styled";
 
 export const HomeContainer = styled.div`
     color: white;
-    // position: absolute;
+    height: 90%;
+    top: 5%;
+    width: 100%;
+    position: absolute;
 `;
 
-export const HeadContainer = styled.div`
-    font-size: 3em;
-    font-weight: 700;
-    left: 10%;
-    top: 30%;
-    width: 40%;
-    height: 50%;
-    position: absolute;
+export const TitleContainer = styled.div`
+    font-size: 60px;
+    font-weight: 650;
+
     line-height: 53px;
     ::before {
         content: "<h1>";
@@ -36,6 +35,14 @@ export const HeadContainer = styled.div`
     }
 `;
 
+export const MainContainer = styled.div`
+    left: 10%;
+    top: 30%;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+`;
+
 export const StyledSpan = styled.span`
     color: #fff;
 `;
@@ -55,4 +62,29 @@ export const BottomTags = styled.span`
     left: 80px;
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
+`;
+
+export const Skills = styled.h1`
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+`;
+
+export const Connect = styled.a`
+    color: #08fdd8;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #08fdd8;
+    margin-top: 25px;
+    float: left;
+    :hover {
+        background: #08fdd8;
+        color: #333;
+    }
 `;
