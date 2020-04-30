@@ -15,7 +15,7 @@ const HomePage = () => {
 
     return (
         <HomeContainer>
-            <BodySpan>&lt;body&gt;</BodySpan>
+            <BodySpan>&lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</BodySpan>
             <MainContainer>
                 <TitleContainer>
                     {info.split("").map((letter, index) => {

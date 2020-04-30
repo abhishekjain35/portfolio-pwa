@@ -50,7 +50,7 @@ export const StyledSpan = styled.span`
 export const BodySpan = styled.span`
     position: absolute;
     // top: 5%;
-    left: 3%;
+    // left: 3%;
     font-family: "La Belle Aurore", cursive;
     color: #515152;
 `;
