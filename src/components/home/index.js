@@ -7,7 +7,7 @@ import {
     BottomTags,
     Skills,
     MainContainer,
-    Connect
+    Connect,
 } from "./style/HomeContainer";
 
 const HomePage = () => {
@@ -32,8 +32,13 @@ const HomePage = () => {
                         );
                     })}
                 </TitleContainer>
-            <Skills>MERN Stack Developer</Skills>
-            <Connect>CONNECT WITH ME</Connect>
+                <Skills>MERN Stack Developer</Skills>
+                <Connect
+                    href="https://www.linkedin.com/in/abhishekjain35/"
+                    target="_blank"
+                >
+                    CONNECT WITH ME
+                </Connect>
             </MainContainer>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;

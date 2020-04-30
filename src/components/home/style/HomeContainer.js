@@ -4,14 +4,14 @@ export const HomeContainer = styled.div`
     color: white;
     height: 90%;
     top: 5%;
-    width: 100%;
+    width: 90%;
+    left: 5%;
     position: absolute;
 `;
 
 export const TitleContainer = styled.div`
     font-size: 60px;
     font-weight: 650;
-
     line-height: 53px;
     ::before {
         content: "<h1>";
@@ -36,9 +36,9 @@ export const TitleContainer = styled.div`
 `;
 
 export const MainContainer = styled.div`
-    left: 10%;
+    left: 5%;
     top: 30%;
-    width: 40%;
+    width: 100%;
     height: 50%;
     position: absolute;
 `;
@@ -49,8 +49,8 @@ export const StyledSpan = styled.span`
 
 export const BodySpan = styled.span`
     position: absolute;
-    top: 5%;
-    left: 7%;
+    // top: 5%;
+    left: 3%;
     font-family: "La Belle Aurore", cursive;
     color: #515152;
 `;
@@ -59,7 +59,7 @@ export const BottomTags = styled.span`
     color: #515152;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 10px;
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
 `;

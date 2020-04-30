@@ -13,7 +13,6 @@ import {
 
 const NavBar = () => {
     const [hover, setHover] = useState("");
-
     return (
         <NavContainer>
             <LogoDiv>
@@ -189,7 +188,7 @@ const NavBar = () => {
                     onMouseLeave={() => setHover("")}
                 >
                     <Svg
-                        id="Bold"
+                        // id="Bold"
                         enable-background="new 0 0 24 24"
                         width="50"
                         height="15"
