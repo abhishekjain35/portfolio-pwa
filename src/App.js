@@ -1,10 +1,12 @@
 import React, { Suspense, lazy } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./containers/navbar/index";
 import { ThemeProvider } from "emotion-theming";
+// import AboutPage from "./containers/about/index";
 
 const Home = lazy(() => import("./containers/home/index"));
+const About = lazy(() => import("./containers/about/index"));
 
 const HomePage = () => (
     <Suspense fallback={<h1>Loading...</h1>}>
@@ -12,13 +14,24 @@ const HomePage = () => (
     </Suspense>
 );
 
+const AboutPage = () => (
+    <Suspense fallback={<h1>Loading...</h1>}>
+        <About />
+    </Suspense>
+);
+
 const App = () => {
     return (
         <ThemeProvider theme={{ color: "white" }}>
             <Navbar />
-            <Route path="/">
-                <HomePage />
-            </Route>
+            <Switch>
+                <Route path="/about">
+                    <AboutPage />
+                </Route>
+                <Route path="/">
+                    <HomePage />
+                </Route>
+            </Switch>
         </ThemeProvider>
     );
 };
