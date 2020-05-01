@@ -88,3 +88,8 @@ export const Connect = styled.a`
         color: #333;
     }
 `;
+
+export const Img = styled.img`
+    position: absolute;
+    right: 0;
+`;

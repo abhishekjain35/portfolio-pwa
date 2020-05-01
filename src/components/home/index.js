@@ -8,14 +8,18 @@ import {
     Skills,
     MainContainer,
     Connect,
+    Img
 } from "./style/HomeContainer";
+import Profile from "../../assets/Profile.png"
 
 const HomePage = () => {
     let info = "Hi,$I'm Abhishek,$web developer.";
 
     return (
         <HomeContainer>
-            <BodySpan>&lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</BodySpan>
+            <BodySpan>
+                &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
+            </BodySpan>
             <MainContainer>
                 <TitleContainer>
                     {info.split("").map((letter, index) => {
@@ -40,6 +44,7 @@ const HomePage = () => {
                     CONNECT WITH ME
                 </Connect>
             </MainContainer>
+            <Img src={Profile} alt=""/>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>
