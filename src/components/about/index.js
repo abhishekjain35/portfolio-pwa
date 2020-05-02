@@ -1,7 +1,26 @@
-import React from 'react';
+import React from "react";
+import {
+    TitleContainer,
+    HomeContainer,
+    MainContainer,
+    BottomTags,
+    BodySpan,
+} from "../home/style/HomeContainer";
 
 const About = () => {
-    return ( <h1>Hii</h1> );
-}
- 
+    return (
+        <HomeContainer>
+            <BodySpan>
+                &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
+            </BodySpan>
+            <MainContainer>
+                <TitleContainer>About Me</TitleContainer>
+            </MainContainer>
+            <BottomTags>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
+            </BottomTags>
+        </HomeContainer>
+    );
+};
+
 export default About;
