@@ -6,6 +6,7 @@ import { ThemeProvider } from "emotion-theming";
 
 const Home = lazy(() => import("./containers/home/index"));
 const About = lazy(() => import("./containers/about/index"));
+const Skills = lazy(() => import("./containers/skills/index"));
 
 const HomePage = () => (
     <Suspense fallback={<h1>Loading...</h1>}>
@@ -19,6 +20,14 @@ const AboutPage = () => (
     </Suspense>
 );
 
+const SkillsPage = () => (
+    <Suspense fallback={<h1>Loading...</h1>}>
+        <Skills />
+    </Suspense>
+);
+
+
+
 const App = () => {
     return (
         <ThemeProvider theme={{ color: "white" }}>
@@ -26,6 +35,9 @@ const App = () => {
             <Switch>
                 <Route path="/about">
                     <AboutPage />
+                </Route>
+                <Route path="/skills">
+                    <SkillsPage />
                 </Route>
                 <Route path="/">
                     <HomePage />
