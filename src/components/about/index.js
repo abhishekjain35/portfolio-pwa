@@ -5,7 +5,7 @@ import {
     MainContainer,
     BottomTags,
     BodySpan,
-} from "../home/style/HomeContainer";
+} from "../reusable-components/style";
 
 const About = () => {
     return (

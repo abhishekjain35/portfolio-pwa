@@ -1,16 +1,14 @@
 import React from "react";
+import { StyledSpan, Skills, Connect, Img } from "./style/HomeContainer";
+
 import {
-    HomeContainer,
-    TitleContainer,
-    StyledSpan,
     BodySpan,
     BottomTags,
-    Skills,
+    HomeContainer,
+    TitleContainer,
     MainContainer,
-    Connect,
-    Img
-} from "./style/HomeContainer";
-import Profile from "../../assets/Profile.png"
+} from "../reusable-components/style";
+import Profile from "../../assets/Profile.png";
 
 const HomePage = () => {
     let info = "Hi,$I'm Abhishek,$web developer.";
@@ -44,7 +42,7 @@ const HomePage = () => {
                     CONNECT WITH ME
                 </Connect>
             </MainContainer>
-            <Img src={Profile} alt=""/>
+            <Img src={Profile} alt="" />
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>

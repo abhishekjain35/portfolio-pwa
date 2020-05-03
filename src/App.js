@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./containers/navbar/index";
 import { ThemeProvider } from "emotion-theming";
-// import AboutPage from "./containers/about/index";
 
 const Home = lazy(() => import("./containers/home/index"));
 const About = lazy(() => import("./containers/about/index"));
