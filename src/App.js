@@ -26,8 +26,6 @@ const SkillsPage = () => (
     </Suspense>
 );
 
-
-
 const App = () => {
     return (
         <ThemeProvider theme={{ color: "white" }}>

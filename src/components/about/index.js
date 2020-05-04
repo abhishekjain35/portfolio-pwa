@@ -6,6 +6,7 @@ import {
     BottomTags,
     BodySpan,
 } from "../reusable-components/style";
+import { P } from "./style/style";
 
 const About = () => {
     return (
@@ -15,6 +16,7 @@ const About = () => {
             </BodySpan>
             <MainContainer>
                 <TitleContainer>About Me</TitleContainer>
+                <P>I'm a MERN Stack developer based in India.</P>
             </MainContainer>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;

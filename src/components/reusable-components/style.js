@@ -23,7 +23,7 @@ export const TitleContainer = styled.div`
         left: -15px;
     }
     ::after {
-        content: "<h1/>";
+        content: "</h1>";
         font-family: "La Belle Aurore", cursive;
         color: #515152;
         font-size: 18px;
