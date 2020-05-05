@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
     color: white;
     height: 90%;
     top: 5%;
-    width: 90%;
+    width: 93%;
     left: 60px;
     position: absolute;
 `;
@@ -38,7 +38,7 @@ export const TitleContainer = styled.div`
 export const MainContainer = styled.div`
     left: 5%;
     top: 30%;
-    width: 50%;
+    width: 60%;
     height: 50%;
     position: absolute;
 `;

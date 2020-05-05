@@ -42,7 +42,7 @@ const HomePage = () => {
                     CONNECT WITH ME
                 </Connect>
             </MainContainer>
-            <Img src={Profile} alt="" />
+            <Img src={Profile} alt="profile image" />
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>
