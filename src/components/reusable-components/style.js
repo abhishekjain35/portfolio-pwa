@@ -5,7 +5,7 @@ export const HomeContainer = styled.div`
     height: 90%;
     top: 5%;
     width: 90%;
-    left: 5%;
+    left: 60px;
     position: absolute;
 `;
 
@@ -38,7 +38,7 @@ export const TitleContainer = styled.div`
 export const MainContainer = styled.div`
     left: 5%;
     top: 30%;
-    width: 100%;
+    width: 50%;
     height: 50%;
     position: absolute;
 `;
@@ -47,6 +47,7 @@ export const BodySpan = styled.span`
     position: absolute;
     font-family: "La Belle Aurore", cursive;
     color: #515152;
+    left: 10px;
 `;
 
 export const BottomTags = styled.span`

@@ -16,7 +16,7 @@ const About = () => {
             </BodySpan>
             <MainContainer>
                 <TitleContainer>About Me</TitleContainer>
-                <P>I'm a MERN Stack developer based in India.</P>
+                <P>I'm a MERN Stack developer based in India. I have serious passion for creating fully functional web applications with great user interface.</P>
             </MainContainer>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;

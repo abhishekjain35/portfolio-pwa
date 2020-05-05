@@ -32,4 +32,5 @@ export const Connect = styled.a`
 export const Img = styled.img`
     position: absolute;
     right: 0;
+    z-index: -1;
 `;
