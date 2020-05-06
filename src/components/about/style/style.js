@@ -33,7 +33,7 @@ export const Section = styled.section`
     animation: ${spin} 10s linear infinite;
     transform-origin: 116px 200px 116px;
 
-    & > div:first-child {
+    & > div:first-of-type {
         border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
         transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
     }
@@ -43,7 +43,7 @@ export const Section = styled.section`
         border-width: 200px 0 200px 346px;
         transform-origin: 0 0;
     }
-    & > div:first-child:after {
+    & > div:first-of-type:after {
         position: absolute;
         content: url(${ReactLogo});
     }
@@ -55,29 +55,29 @@ export const Section = styled.section`
         text-align: center;
         opacity: 0.6;
     }
-    & > div:nth-child(2) {
+    & > div:nth-of-type(2) {
         border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
         transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg)
             translateY(-400px);
     }
-    & > div:nth-child(2):after {
+    & > div:nth-of-type(2):after {
         position: absolute;
         content: url(${MongoIcon});
     }
-    > div:nth-child(3) {
+    > div:nth-of-type(3) {
         border-color: transparent transparent transparent rgba(50, 50, 50, 0.9);
         transform: rotateX(60deg) rotateY(19.5deg);
     }
-    & > div:nth-child(3):after {
+    & > div:nth-of-type(3):after {
         position: absolute;
         content: url(${NodeIcon});
     }
-    & > div:nth-child(4) {
+    & > div:nth-of-type(4) {
         border-color: transparent transparent transparent rgba(50, 50, 50, 0.8);
         transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px)
             translateY(-200px) translateZ(326px);
     }
-    & > div:nth-child(4):after {
+    & > div:nth-of-type(4):after {
         position: absolute;
         // width: 150px;
         content: url(${ExpressIcon});
