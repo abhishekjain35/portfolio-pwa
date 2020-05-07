@@ -13,15 +13,18 @@ export const ImgDiv = styled.div`
     @media (max-width: 1300px) and (min-width: 1150px) {
         width: 53%;
     }
-    @media (max-width: 1150px) and (min-width: 1000px) {
-        width: 61%;
+    @media (max-width: 1150px) {
+        display: none;
     }
 `;
 
 export const P = styled.p`
     margin: 0px;
-    padding-top: ${({ padd }) => (padd ? padd : "20px")};
+    padding-top: ${({ padd }) => (padd ? padd : "30px")};
     font-size: 17px;
     line-height: 30px;
     width: 90%;
+    @media (max-width: 1150px) {
+        width: 100%;
+    }
 `;
