@@ -1,4 +1,6 @@
 import React from "react";
+
+import { ImgDiv } from "./style/style";
 import {
     TitleContainer,
     HomeContainer,
@@ -16,6 +18,8 @@ const SkillsPage = () => {
             <MainContainer>
                 <TitleContainer>Skills & Experience</TitleContainer>
             </MainContainer>
+            <ImgDiv>
+            </ImgDiv>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>

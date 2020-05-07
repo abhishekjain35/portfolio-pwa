@@ -10,7 +10,8 @@ export const HomeContainer = styled.div`
 `;
 
 export const TitleContainer = styled.div`
-    font-size: 60px;
+    font-size: 4vw;
+    // font-size: 60px;
     font-weight: 650;
     line-height: 53px;
     ::before {
@@ -32,6 +33,9 @@ export const TitleContainer = styled.div`
         margin-left: 20px;
         // -webkit-animation: myanim2 1s 1.7s backwards;
         // animation: myanim2 1s 1.7s backwards;
+    }
+    @media (max-width: 1000px) {
+        font-size: 40px;
     }
 `;
 
@@ -58,3 +62,4 @@ export const BottomTags = styled.span`
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
 `;
+
