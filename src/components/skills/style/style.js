@@ -4,7 +4,7 @@ import Skills from "../../../assets/Skills.png";
 export const ImgDiv = styled.div`
     position: absolute;
     right: 0;
-    top: 10%;
+    top: 15%;
     z-index: -1;
     width: 47%;
     height: 70%;
@@ -16,4 +16,12 @@ export const ImgDiv = styled.div`
     @media (max-width: 1150px) and (min-width: 1000px) {
         width: 61%;
     }
+`;
+
+export const P = styled.p`
+    margin: 0px;
+    padding-top: ${({ padd }) => (padd ? padd : "20px")};
+    font-size: 17px;
+    line-height: 30px;
+    width: 90%;
 `;
