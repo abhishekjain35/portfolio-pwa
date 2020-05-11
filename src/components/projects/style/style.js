@@ -39,6 +39,7 @@ export const P = styled.p`
     line-height: 23px;
     opacity: 0.9;
 `;
+
 export const Date = styled.h5`
     // color: rgb(11, 206, 175);
     font-size: 14px;
