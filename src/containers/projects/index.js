@@ -42,7 +42,7 @@ const Projects = () => {
         },
     ];
 
-    return <ProjectsPage />;
+    return <ProjectsPage data={data} />;
 };
 
 export default Projects;

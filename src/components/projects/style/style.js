@@ -20,8 +20,8 @@ export const CardDiv = styled.div`
 export const Card = styled.div`
     padding: 10px;
     // background-color: #262626;
-    background-color: #AE936C;
-    background-color: #E0C595;   
+    background-color: #ae936c;
+    background-color: #e0c595;
     width: 25%;
     box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 10px 0px;
     overflow-wrap: break-word;
@@ -30,5 +30,17 @@ export const Card = styled.div`
     transition: box-shadow 500ms ease 0s;
     padding: 10px 35px;
     border-radius: 5px;
-    // color: white;
+    color: black;
+`;
+
+export const P = styled.p`
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    opacity: 0.9;
+`;
+export const Date = styled.h5`
+    // color: rgb(11, 206, 175);
+    font-size: 14px;
+    letter-spacing: 2px;
 `;
