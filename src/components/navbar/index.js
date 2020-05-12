@@ -13,7 +13,6 @@ import {
 
 const NavBar = () => {
     let route = useLocation().pathname
-    console.log(route)
     const [hover, setHover] = useState("");
     return (
         <NavContainer>

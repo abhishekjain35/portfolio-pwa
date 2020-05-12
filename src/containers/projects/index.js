@@ -6,13 +6,13 @@ const Projects = () => {
         {
             name: "Tshirt-store",
             description:
-                "Made with MERN Stack, this is complete e-commerce t-shirt store with user and admin panels, stripe and braintree payment gateways.",
+                "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, stripe and Braintree payment gateways.",
             link: "https://github.com/abhishekjain35/Tshirt-store",
             date: "March - Apr, 2019",
         },
         {
             name: "Vidly-backend",
-            description: "Vidly is a video rental application. This is the backend part of it and is made with NodeJS, express and MongoDB",
+            description: "Vidly is a video rental application. This is the backend part of it and is made with NodeJS, express and MongoDB.",
             link: "https://github.com/abhishekjain35/Vidly-backend",
             date: "Feb 2020",
         },
@@ -30,7 +30,7 @@ const Projects = () => {
         },
         {
             name: "Counter_App",
-            description: "It's just a simple counter app made with react. It is like a cart where we can add perform CRUD operations.",
+            description: "It's just a simple counter app made with react. It is like a cart where we can perform CRUD operations.",
             link: "https://github.com/abhishekjain35/Counter_App",
             date: "Oct 2019",
         },
