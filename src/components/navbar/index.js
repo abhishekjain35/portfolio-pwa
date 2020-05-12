@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
     NavContainer,
     LogoDiv,
@@ -12,6 +12,8 @@ import {
 } from "./style/container";
 
 const NavBar = () => {
+    let route = useLocation().pathname
+    console.log(route)
     const [hover, setHover] = useState("");
     return (
         <NavContainer>
@@ -39,7 +41,7 @@ const NavBar = () => {
                             <NavSvg
                                 aria-hidden="true"
                                 height="25px"
-                                fill="rgb(77, 77, 78)"
+                                fill={route === "/" ? "#08fdd8" : "rgb(77, 77, 78)"}
                                 viewBox="0 1 511 511.999"
                                 width="50px"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +62,7 @@ const NavBar = () => {
                             <NavSvg
                                 aria-hidden="true"
                                 height="25"
-                                fill="rgb(77, 77, 78)"
+                                fill={route === "/about" ? "#08fdd8" : "rgb(77, 77, 78)"}
                                 viewBox="0 1 511 511.999"
                                 width="50"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +81,7 @@ const NavBar = () => {
                             <HoverTxt>SKILLS</HoverTxt>
                         ) : (
                             <NavSvg
-                                fill="rgb(77, 77, 78)"
+                                fill={route === "/skills" ? "#08fdd8" : "rgb(77, 77, 78)"}
                                 enable-background="new 0 0 512 512"
                                 height="25"
                                 viewBox="0 0 512 512"
@@ -102,7 +104,7 @@ const NavBar = () => {
                         ) : (
                             <NavSvg
                                 height="25"
-                                fill="rgb(77, 77, 78)"
+                                fill={route === "/projects" ? "#08fdd8" : "rgb(77, 77, 78)"}
                                 viewBox="0 0 511 511.99775"
                                 width="50"
                                 xmlns="http://www.w3.org/2000/svg"
