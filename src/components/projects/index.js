@@ -11,7 +11,7 @@ const ProjectsPage = ({ data }) => {
             <CardDiv>
                 {data.map((info, index) => (
                     <Card key={index}>
-                        <h3>
+                        <h2>
                             {info.name}
                             <a
                                 href={info.link}
@@ -38,9 +38,9 @@ const ProjectsPage = ({ data }) => {
                                     ></path>
                                 </svg>
                             </a>
-                        </h3>
+                        </h2>
                         <Date>{info.date}</Date>
-                        <P style={{fontSize:"14px"}}>{info.description}</P>
+                        <P>{info.description}</P>
                     </Card>
                 ))}
             </CardDiv>

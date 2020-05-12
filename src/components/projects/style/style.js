@@ -34,9 +34,9 @@ export const Card = styled.div`
 `;
 
 export const P = styled.p`
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 25px;
     opacity: 0.9;
 `;
 
