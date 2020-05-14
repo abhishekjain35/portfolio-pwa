@@ -8,14 +8,18 @@ export const NavContainer = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    // flex: 1 1 auto;
     justify-content: space-between;
+    @media (max-width: 900px) {
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
 `;
 
 export const LogoDiv = styled.div`
     background-color: #070707;
-    padding: 8px 0;
-    height: 64px;
+    // padding: 8px 0;
+    height: 60px;
 `;
 
 export const NavIcon = styled.div`
@@ -25,10 +29,20 @@ export const NavIcon = styled.div`
     flex-direction: column;
     height: 35vh;
     justify-content: space-around;
+    @media (max-width: 900px) {
+        width: 35vw;
+        height: initial;
+        flex-direction: row;
+        padding: 5px 0 0 50px;
+    }
 `;
 
 export const SocialIcon = styled.div`
     padding-left: 5px;
+    @media (max-width: 900px) {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
 `;
 
 export const Svg = styled.svg`
@@ -48,7 +62,7 @@ export const HoverDiv = styled.div`
 export const HoverTxt = styled.span`
     position: absolute;
     padding: 17px 0;
-    padding-left: ${({paddLeft}) => paddLeft ? paddLeft : "8px"};
+    padding-left: ${({ paddLeft }) => (paddLeft ? paddLeft : "8px")};
     color: #08fdd8;
     font-size: 9px;
     letter-spacing: 2px;

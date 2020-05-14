@@ -7,6 +7,10 @@ export const HomeContainer = styled.div`
     width: 93%;
     left: 60px;
     position: absolute;
+    @media (max-width: 900px){
+        top: 10%;
+        left: 3%;
+    }
 `;
 
 export const TitleContainer = styled.div`
