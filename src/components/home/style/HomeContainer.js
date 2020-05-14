@@ -33,4 +33,7 @@ export const Img = styled.img`
     position: absolute;
     right: 0;
     z-index: -1;
+    @media (max-width: 900px){
+        display: none;
+    }
 `;
