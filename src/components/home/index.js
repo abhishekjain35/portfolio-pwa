@@ -7,7 +7,6 @@ import {
     HomeContainer,
     TitleContainer,
     MainContainer,
-    
 } from "../reusable-components/style";
 import Profile from "../../assets/Profile.png";
 

@@ -52,6 +52,10 @@ export const MainContainer = styled.div`
     @media (max-width: 1150px) {
         width: 90%;
     }
+    @media (max-width: 900px){
+        left: 15%;
+        width: 80%;
+    }
 `;
 
 export const BodySpan = styled.span`

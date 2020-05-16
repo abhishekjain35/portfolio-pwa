@@ -14,6 +14,12 @@ import {
 const NavBar = () => {
     let route = useLocation().pathname;
     const [hover, setHover] = useState("");
+
+    const [size, setSize] = useState(window.innerWidth);
+    window.onresize = () => {
+        setSize(window.innerWidth)
+    };
+
     return (
         <NavContainer>
             <LogoDiv>

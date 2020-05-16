@@ -31,6 +31,10 @@ export const Card = styled.div`
     padding: 10px 35px;
     border-radius: 5px;
     color: black;
+    @media (max-width: 768px) {
+        width: 100%;
+        box-shadow: rgb(0, 1, 0) 0px 10px 50px 0px;
+    }
 `;
 
 export const P = styled.p`
