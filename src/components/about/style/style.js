@@ -84,6 +84,9 @@ export const Section = styled.section`
         // left: -315px;
         // top: -91px;
     }
+    @media (max-width: 800px){
+        display: none;
+    }
 `;
 
 export const MainContainer = styled.div`
@@ -94,5 +97,8 @@ export const MainContainer = styled.div`
     position: absolute;
     @media (max-width: 1255px) {
         top: 14%;
+    }
+    @media (max-width: 800px){
+        width: initial;
     }
 `;

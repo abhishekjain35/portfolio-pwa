@@ -15,11 +15,6 @@ const NavBar = () => {
     let route = useLocation().pathname;
     const [hover, setHover] = useState("");
 
-    const [size, setSize] = useState(window.innerWidth);
-    window.onresize = () => {
-        setSize(window.innerWidth)
-    };
-
     return (
         <NavContainer>
             <LogoDiv>
@@ -37,10 +32,14 @@ const NavBar = () => {
             <NavIcon>
                 <Link to="/">
                     <HoverDiv
-                        onMouseEnter={() => setHover("homeEnter")}
+                        onMouseEnter={
+                            window.innerWidth <= 960
+                                ? null
+                                : () => setHover("homeIcon")
+                        }
                         onMouseLeave={() => setHover("")}
                     >
-                        {hover === "homeEnter" ? (
+                        {hover === "homeIcon" ? (
                             <HoverTxt>HOME</HoverTxt>
                         ) : (
                             <NavSvg
@@ -62,7 +61,11 @@ const NavBar = () => {
                 </Link>
                 <Link to="/about">
                     <HoverDiv
-                        onMouseEnter={() => setHover("aboutEnter")}
+                        onMouseEnter={
+                            window.innerWidth <= 960
+                                ? null
+                                : () => setHover("aboutEnter")
+                        }
                         onMouseLeave={() => setHover("")}
                     >
                         {hover === "aboutEnter" ? (
@@ -87,7 +90,11 @@ const NavBar = () => {
                 </Link>
                 <Link to="/skills">
                     <HoverDiv
-                        onMouseEnter={() => setHover("skillEnter")}
+                        onMouseEnter={
+                            window.innerWidth <= 960
+                                ? null
+                                : () => setHover("skillEnter")
+                        }
                         onMouseLeave={() => setHover("")}
                     >
                         {hover === "skillEnter" ? (
@@ -113,7 +120,11 @@ const NavBar = () => {
                 </Link>
                 <Link to="/projects">
                     <HoverDiv
-                        onMouseEnter={() => setHover("projectEnter")}
+                        onMouseEnter={
+                            window.innerWidth <= 960
+                                ? null
+                                : () => setHover("projectEnter")
+                        }
                         onMouseLeave={() => setHover("")}
                     >
                         {hover === "projectEnter" ? (
