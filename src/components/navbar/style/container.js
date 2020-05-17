@@ -35,6 +35,10 @@ export const NavIcon = styled.div`
         flex-direction: row;
         padding: 5px 0 0 50px;
     }
+    @media (max-width: 600px){
+        margin-right: 50px;
+        width: 50vw;
+    }
 `;
 
 export const SocialIcon = styled.div`
@@ -42,6 +46,9 @@ export const SocialIcon = styled.div`
     @media (max-width: 900px) {
         padding-top: 10px;
         padding-right: 10px;
+    }
+    @media (max-width: 600px) {
+        display: none;
     }
 `;
 
@@ -57,6 +64,9 @@ export const HoverDiv = styled.div`
     text-decoration: none;
     height: 55px;
     width: 49px;
+    @media (max-width: 600px){
+        margin-right: 15px;
+    }
 `;
 
 export const HoverTxt = styled.span`

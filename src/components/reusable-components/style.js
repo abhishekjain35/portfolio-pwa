@@ -35,6 +35,9 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
+        @media (max-width: 420px) and (min-width: 380px){
+            margin-left: 0px;
+        }
         // -webkit-animation: myanim2 1s 1.7s backwards;
         // animation: myanim2 1s 1.7s backwards;
     }
@@ -53,8 +56,11 @@ export const MainContainer = styled.div`
         width: 90%;
     }
     @media (max-width: 900px){
-        left: 15%;
+        left: 14%;
         width: 80%;
+    }
+    @media (max-width: 350px){
+        top: 15%;
     }
 `;
 
