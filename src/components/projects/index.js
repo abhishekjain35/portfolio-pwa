@@ -1,6 +1,5 @@
 import React from "react";
-import { HomeContainer } from "../reusable-components/style";
-import { Header, CardDiv, Card, P, Date } from "./style/style";
+import { Header, CardDiv, Card, P, Date, HomeContainer } from "./style/style";
 
 const ProjectsPage = ({ data }) => {
     return (

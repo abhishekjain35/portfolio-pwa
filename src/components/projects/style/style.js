@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const Header = styled.div`
     text-align: center;
+    padding-top: 30px;
 `;
 
 export const CardDiv = styled.div`
@@ -35,6 +36,7 @@ export const Card = styled.div`
         width: 100%;
         box-shadow: rgb(0, 1, 0) 0px 10px 50px 0px;
     }
+    
 `;
 
 export const P = styled.p`
@@ -48,4 +50,20 @@ export const Date = styled.h5`
     // color: rgb(11, 206, 175);
     font-size: 14px;
     letter-spacing: 2px;
+`;
+
+export const HomeContainer = styled.div`
+    color: white;
+    height: 100%;
+    width: 93%;
+    left: 60px;
+    position: absolute;
+    @media (max-width: 900px){
+        top: 10%;
+        left: 3%;
+    }
+    ::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+    overflow-y: scroll;
 `;
