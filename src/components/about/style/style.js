@@ -98,7 +98,16 @@ export const MainContainer = styled.div`
     @media (max-width: 1255px) {
         top: 14%;
     }
-    @media (max-width: 800px){
-        width: initial;
+    @media (max-width: 1150px) {
+        width: 90%;
+    }
+    @media (max-width: 900px){
+        left: 14%;
+        width: 90%;
+        overflow-y: scroll;
+        height: 70%;
+    }
+    @media (max-width: 350px){
+        top: 15%;
     }
 `;

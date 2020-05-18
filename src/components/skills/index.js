@@ -1,13 +1,13 @@
 import React from "react";
 
-import { ImgDiv, P } from "./style/style";
 import {
-    TitleContainer,
+    ImgDiv,
+    P,
     HomeContainer,
-    MainContainer,
     BottomTags,
-    BodySpan,
-} from "../reusable-components/style";
+    MainContainer,
+} from "./style/style";
+import { TitleContainer, BodySpan } from "../reusable-components/style";
 
 const SkillsPage = () => {
     return (
