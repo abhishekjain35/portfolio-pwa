@@ -3,6 +3,9 @@ import styled from "@emotion/styled";
 export const Header = styled.div`
     text-align: center;
     padding-top: 30px;
+    @media (max-width: 900px){
+        padding-top: 10%;
+    }
 `;
 
 export const CardDiv = styled.div`
@@ -59,7 +62,7 @@ export const HomeContainer = styled.div`
     left: 60px;
     position: absolute;
     @media (max-width: 900px){
-        top: 10%;
+        // padding-top: 10%;
         left: 3%;
     }
     ::-webkit-scrollbar { 

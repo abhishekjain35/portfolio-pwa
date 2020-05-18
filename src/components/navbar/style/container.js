@@ -14,6 +14,7 @@ export const NavContainer = styled.div`
         height: 60px;
         width: 100%;
     }
+    z-index: 1;
 `;
 
 export const LogoDiv = styled.div`
