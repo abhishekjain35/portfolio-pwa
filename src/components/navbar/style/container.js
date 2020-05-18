@@ -38,7 +38,7 @@ export const NavIcon = styled.div`
     }
     @media (max-width: 600px){
         margin-right: 50px;
-        width: 50vw;
+        width: 65vw;
     }
 `;
 
@@ -66,7 +66,8 @@ export const HoverDiv = styled.div`
     height: 55px;
     width: 49px;
     @media (max-width: 600px){
-        margin-right: 15px;
+        margin-right: 7px;
+        margin-left: 7px;
     }
 `;
 

@@ -84,7 +84,7 @@ export const Section = styled.section`
         // left: -315px;
         // top: -91px;
     }
-    @media (max-width: 800px){
+    @media (max-width: 960px) {
         display: none;
     }
 `;
@@ -99,15 +99,18 @@ export const MainContainer = styled.div`
         top: 14%;
     }
     @media (max-width: 1150px) {
-        width: 90%;
+        // width: 90%;
     }
-    @media (max-width: 900px){
+    @media (max-width: 800px) {
+        width: initial;
+    }
+    @media (max-width: 960px) {
         left: 14%;
-        width: 90%;
+        width: 85%;
         overflow-y: scroll;
         height: 70%;
     }
-    @media (max-width: 350px){
+    @media (max-width: 350px) {
         top: 15%;
     }
 `;
