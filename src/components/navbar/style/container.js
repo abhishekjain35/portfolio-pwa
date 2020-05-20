@@ -48,9 +48,6 @@ export const SocialIcon = styled.div`
         padding-top: 10px;
         padding-right: 10px;
     }
-    @media (max-width: 600px) {
-        display: none;
-    }
 `;
 
 export const Svg = styled.svg`

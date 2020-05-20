@@ -4,7 +4,7 @@ import { SocialIcon, Svg } from './style/container';
 const SocialMedia = () => {
 
     const [hover, setHover] = useState("");
-    return ( 
+    return (
         <SocialIcon>
                 <a
                     href="https://www.linkedin.com/in/abhishekjain35/"

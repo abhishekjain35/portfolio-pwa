@@ -147,7 +147,7 @@ const NavBar = () => {
                     </HoverDiv>
                 </Link>
             </NavIcon>
-            <SocialMedia />
+            {window.innerWidth >= 600 ? <SocialMedia /> : null}
         </NavContainer>
     );
 };
