@@ -46,6 +46,7 @@ const HomePage = () => {
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>
+            
         </HomeContainer>
     );
 };
