@@ -59,8 +59,8 @@ export const MainContainer = styled.div`
         left: 20%;
         width: 80%;
     }
-    @media (max-width: 350px){
-        top: 15%;
+    @media (max-width: 360px){
+        top: 17%;
     }
 `;
 

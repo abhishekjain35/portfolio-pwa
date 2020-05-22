@@ -85,3 +85,9 @@ export const HoverTxt = styled.span`
     font-size: 9px;
     letter-spacing: 2px;
 `;
+
+export const SocialMediaDiv = styled.div`
+    @media (max-width : 600px){
+        display: none;
+    }
+`

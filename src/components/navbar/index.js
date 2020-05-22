@@ -8,6 +8,7 @@ import {
     NavSvg,
     HoverDiv,
     HoverTxt,
+    SocialMediaDiv,
 } from "./style/container";
 import SocialMedia from "./socialMedia";
 
@@ -147,7 +148,9 @@ const NavBar = () => {
                     </HoverDiv>
                 </Link>
             </NavIcon>
-            {window.innerWidth >= 600 ? <SocialMedia /> : null}
+            <SocialMediaDiv>
+                <SocialMedia />
+            </SocialMediaDiv>
         </NavContainer>
     );
 };
