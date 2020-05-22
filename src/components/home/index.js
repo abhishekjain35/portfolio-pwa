@@ -1,6 +1,11 @@
 import React from "react";
-import { StyledSpan, Skills, Connect, Img } from "./style/HomeContainer";
-
+import {
+    StyledSpan,
+    Skills,
+    Connect,
+    Img,
+    SocialIconDiv,
+} from "./style/HomeContainer";
 import {
     BodySpan,
     BottomTags,
@@ -9,6 +14,7 @@ import {
     MainContainer,
 } from "../reusable-components/style";
 import Profile from "../../assets/Profile.png";
+import SocialMedia from "./../navbar/socialMedia";
 
 const HomePage = () => {
     let info = "Hi,$I'm Abhishek,$web developer.";
@@ -18,6 +24,9 @@ const HomePage = () => {
             <BodySpan>
                 &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
             </BodySpan>
+            <SocialIconDiv>
+                <SocialMedia />
+            </SocialIconDiv>
             <MainContainer>
                 <TitleContainer>
                     {info.split("").map((letter, index) => {
@@ -46,7 +55,6 @@ const HomePage = () => {
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;
             </BottomTags>
-            
         </HomeContainer>
     );
 };

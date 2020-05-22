@@ -37,3 +37,9 @@ export const Img = styled.img`
         display: none;
     }
 `;
+
+export const SocialIconDiv = styled.div`
+    @media (min-width: 600px){
+        display: none;
+    }
+`

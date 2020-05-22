@@ -9,7 +9,7 @@ export const HomeContainer = styled.div`
     position: absolute;
     @media (max-width: 900px){
         top: 10%;
-        left: 3%;
+        left: 0%;
     }
 `;
 
@@ -56,7 +56,7 @@ export const MainContainer = styled.div`
         width: 90%;
     }
     @media (max-width: 900px){
-        left: 14%;
+        left: 20%;
         width: 80%;
     }
     @media (max-width: 350px){

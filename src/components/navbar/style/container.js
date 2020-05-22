@@ -44,9 +44,18 @@ export const NavIcon = styled.div`
 
 export const SocialIcon = styled.div`
     padding-left: 5px;
-    @media (max-width: 900px) {
+    @media (max-width: 900px) and (min-width: 600px) {
         padding-top: 10px;
         padding-right: 10px;
+    }
+    @media (max-width: 600px){
+        padding-left: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #181818;
+        top: 30%;
+        left: 0;
     }
 `;
 
