@@ -14,10 +14,9 @@ export const HomeContainer = styled.div`
 `;
 
 export const TitleContainer = styled.div`
-    font-size: 4vw;
-    // font-size: 60px;
+    font-size: 3.5vw;
     font-weight: 650;
-    line-height: 53px;
+    line-height: 4.2vw;
     ::before {
         content: "<h1>";
         font-family: "La Belle Aurore", cursive;
@@ -43,6 +42,7 @@ export const TitleContainer = styled.div`
     }
     @media (max-width: 1000px) {
         font-size: 40px;
+        line-height: 53px;
     }
 `;
 

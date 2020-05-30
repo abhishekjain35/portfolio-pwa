@@ -2,7 +2,6 @@ import React from "react";
 import {
     TitleContainer,
     HomeContainer,
-    
     BottomTags,
     BodySpan,
 } from "../reusable-components/style";
