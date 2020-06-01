@@ -79,4 +79,3 @@ export const BottomTags = styled.span`
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
 `;
-
