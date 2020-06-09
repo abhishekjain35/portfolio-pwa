@@ -18,7 +18,8 @@ export const NavContainer = styled.div`
 `;
 
 export const LogoDiv = styled.div`
-    background-color: #070707;
+    /* background-color: #070707; */
+    background-color: #ff9191;
     // padding: 8px 0;
     height: 60px;
 `;

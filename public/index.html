@@ -33,10 +33,40 @@
             rel="stylesheet"
         />
         <title>React App</title>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            .navbar {
+                background-color: #ffffff;
+                color: #4169e1;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .navbar h1 {
+                display: inline-block;
+                text-align: left;
+                padding: 10px;
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
-        <div id="root"></div>
+        <div id="root">
+            <div class="navbar">
+                <h1>Abhishek's Portfolio</h1>
+                <p class="page-info">
+                    Loading...
+                </p>
+            </div>
+        </div>
         <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

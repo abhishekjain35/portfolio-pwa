@@ -47,6 +47,7 @@ const HomePage = () => {
                 <Connect
                     href="https://www.linkedin.com/in/abhishekjain35/"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     CONNECT WITH ME
                 </Connect>
