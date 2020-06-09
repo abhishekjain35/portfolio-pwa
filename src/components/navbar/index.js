@@ -47,7 +47,7 @@ const NavBar = () => {
                 </svg>
             </LogoDiv>
             <NavIcon>
-                <Link to="/">
+                <Link to="/" aria-label="home">
                     <HoverDiv
                         onMouseEnter={
                             window.innerWidth <= 960
@@ -76,7 +76,7 @@ const NavBar = () => {
                         )}
                     </HoverDiv>
                 </Link>
-                <Link to="/about">
+                <Link to="/about" aria-label="About">
                     <HoverDiv
                         onMouseEnter={
                             window.innerWidth <= 960
@@ -105,7 +105,7 @@ const NavBar = () => {
                         )}
                     </HoverDiv>
                 </Link>
-                <Link to="/skills">
+                <Link to="/skills" aria-label="Skills">
                     <HoverDiv
                         onMouseEnter={
                             window.innerWidth <= 960
@@ -135,7 +135,7 @@ const NavBar = () => {
                         )}
                     </HoverDiv>
                 </Link>
-                <Link to="/projects">
+                <Link to="/projects" aria-label="Projects">
                     <HoverDiv
                         onMouseEnter={
                             window.innerWidth <= 960

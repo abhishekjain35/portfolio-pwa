@@ -12,9 +12,9 @@ const SocialMedia = () => {
                     rel="noopener noreferrer"
                     onMouseEnter={() => setHover("lnEnter")}
                     onMouseLeave={() => setHover("")}
+                    aria-label="Linkedin"
                 >
                     <Svg
-                        id="Bold"
                         enable-background="new 0 0 24 24"
                         width="50"
                         height="15"
@@ -36,9 +36,9 @@ const SocialMedia = () => {
                     target="_blank"
                     onMouseEnter={() => setHover("ghEnter")}
                     onMouseLeave={() => setHover("")}
+                    aria-label="Github"
                 >
                     <Svg
-                        id="Bold"
                         enable-background="new 0 0 24 24"
                         width="50"
                         height="15"
@@ -57,6 +57,7 @@ const SocialMedia = () => {
                     target="_blank"
                     onMouseEnter={() => setHover("inEnter")}
                     onMouseLeave={() => setHover("")}
+                    aria-label="Instagram"
                 >
                     <Svg
                         viewBox="0 0 512.00096 512.00096"
@@ -78,6 +79,7 @@ const SocialMedia = () => {
                     target="_blank"
                     onMouseEnter={() => setHover("fEnter")}
                     onMouseLeave={() => setHover("")}
+                    aria-label="Facebook"
                 >
                     <Svg
                         enable-background="new 0 0 24 24"
