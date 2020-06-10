@@ -8,17 +8,23 @@ import {
     Progress,
 } from "./style/SkillBar";
 
+const SkillsDiv = ({ name, value }) => {
+    return (
+        <SkillDiv>
+            <TitleSkillDiv>
+                <p>{name}</p>
+                <p>{`${value}%`}</p>
+            </TitleSkillDiv>
+            <Progress value={value} max="100"></Progress>
+        </SkillDiv>
+    );
+};
+
 const SkillsBar = () => {
     return (
         <Container>
             <LeftContainer>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
+                <SkillsDiv name="Html" value="53" />
                 <SkillDiv>
                     <TitleSkillDiv>
                         <p>JavaScript</p>

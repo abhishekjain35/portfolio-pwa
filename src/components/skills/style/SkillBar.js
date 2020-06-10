@@ -32,15 +32,27 @@ export const TitleSkillDiv = styled.div`
     justify-content: space-between;
     p {
         font-size: 20px;
+        margin: 25px 0 10px 0;
     }
 `;
 
 export const Progress = styled.progress`
+    appearance: none;
     width: 100%;
-    border: none;
+    background-color: #8a8a8a;
+    height: 15px;
     border-radius: 10px;
-    background-color: #8A8A8A;
+    &::-webkit-progress-value {
+        background: #e0c595;
+        border: 0;
+        border-radius: 10px;
+    }
+    &::-webkit-progress-bar {
+        border-radius: 10px;
+    }
     &::-moz-progress-bar {
         background: #e0c595;
+        border-radius: 10px;
     }
+    border-style: none;
 `;
