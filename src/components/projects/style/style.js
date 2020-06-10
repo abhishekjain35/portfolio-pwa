@@ -62,6 +62,7 @@ export const HomeContainer = styled.div`
     }
     ::-webkit-scrollbar {
         display: none; /* Safari and Chrome */
-    }
+    }   
+    scrollbar-width: none;
     overflow-y: scroll;
 `;
