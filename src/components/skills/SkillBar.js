@@ -24,72 +24,18 @@ const SkillsBar = () => {
     return (
         <Container>
             <LeftContainer>
-                <SkillsDiv name="Html" value="53" />
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
+                <SkillsDiv name="JavaScript" value="85" />
+                <SkillsDiv name="React" value="80" />
+                <SkillsDiv name="NodeJS" value="70" />
+                <SkillsDiv name="MongoDB" value="70" />
+                <SkillsDiv name="ExpressJS" value="75" />
             </LeftContainer>
             <RightContainer>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>80%</p>
-                    </TitleSkillDiv>
-                    <Progress value="80" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
-                <SkillDiv>
-                    <TitleSkillDiv>
-                        <p>JavaScript</p>
-                        <p>90%</p>
-                    </TitleSkillDiv>
-                    <Progress value="90" max="100"></Progress>
-                </SkillDiv>
+                <SkillsDiv name="HTML" value="90" />
+                <SkillsDiv name="CSS" value="90" />
+                <SkillsDiv name="Git" value="80" />
+                <SkillsDiv name="REST Api" value="70" />
+                <SkillsDiv name="Bootstrap" value="75" />
             </RightContainer>
         </Container>
     );

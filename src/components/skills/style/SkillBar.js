@@ -3,23 +3,33 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
     display: flex;
     justify-content: space-around;
-    width: 80vw;
+    width: 77vw;
     height: 50vh;
     /* border: 5px solid orangered; */
     color: white;
     padding: 50px;
+    @media (max-width: 900px){
+        display: initial;
+        padding: 0;
+    }
 `;
 
 export const LeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 30%;
+    @media (max-width: 900px){
+        width: 100%;
+    }
 `;
 
 export const RightContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 30%;
+    @media (max-width: 900px){
+        width: 100%;
+    }
 `;
 
 export const SkillDiv = styled.div`
