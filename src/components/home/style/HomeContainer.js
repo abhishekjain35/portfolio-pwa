@@ -29,17 +29,18 @@ export const Connect = styled.a`
     }
 `;
 
-export const Img = styled.img`
+export const MainImageDiv = styled.div`
     position: absolute;
-    right: 0;
+    right: 10%;
     z-index: -1;
-    @media (max-width: 900px){
+    top: 10%;
+    @media (max-width: 900px) {
         display: none;
     }
 `;
 
 export const SocialIconDiv = styled.div`
-    @media (min-width: 600px){
+    @media (min-width: 600px) {
         display: none;
     }
-`
+`;

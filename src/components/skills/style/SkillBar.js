@@ -43,6 +43,9 @@ export const TitleSkillDiv = styled.div`
     p {
         font-size: 20px;
         margin: 25px 0 10px 0;
+        @media (max-width: 900px){
+            font-size: 15px;
+        }
     }
 `;
 

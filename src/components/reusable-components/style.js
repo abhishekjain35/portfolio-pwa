@@ -41,7 +41,7 @@ export const TitleContainer = styled.div`
         // animation: myanim2 1s 1.7s backwards;
     }
     @media (max-width: 1000px) {
-        font-size: 40px;
+        font-size: 37px;
         line-height: 53px;
     }
 `;

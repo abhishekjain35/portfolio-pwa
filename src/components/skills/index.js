@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    // P,
     HomeContainer,
     BottomTags,
     MainContainer,
@@ -16,9 +15,7 @@ const SkillsPage = () => {
             </BodySpan>
             <MainContainer style={{ top: "15%" }}>
                 <TitleContainer>Skills & Experience</TitleContainer>
-                <SkillsBar>
-                    
-                </SkillsBar>
+                <SkillsBar />
             </MainContainer>
             <BottomTags>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt; <br /> &lt;/html&gt;

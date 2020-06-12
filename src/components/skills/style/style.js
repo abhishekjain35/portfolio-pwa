@@ -51,4 +51,9 @@ export const MainContainer = styled.div`
     @media (max-width: 350px){
         top: 15%;
     }
+    ::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+    scrollbar-width: none;
+    scroll-behavior: smooth;
 `;
