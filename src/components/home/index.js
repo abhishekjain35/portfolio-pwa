@@ -5,12 +5,12 @@ import {
     Connect,
     SocialIconDiv,
     MainImageDiv,
+    TitleContainer
 } from "./style/HomeContainer";
 import {
     BodySpan,
     BottomTags,
     HomeContainer,
-    TitleContainer,
     MainContainer,
 } from "../reusable-components/style";
 import SocialMedia from "./../navbar/socialMedia";
@@ -28,19 +28,20 @@ const HomePage = () => {
             </SocialIconDiv>
             <MainContainer>
                 <TitleContainer>
-                    {info.split("").map((letter, index) => {
+                    Hi,<br />I'm Abhishek,<br /> web developer.
+                    {/* {info.split("").map((letter, index) => {
                         if (letter === "$") {
                             return <br key={index} />;
                         }
-                        const style = {
-                            animationDelay: 0.5 + index / 10 + "s",
-                        };
+                        // const style = {
+                        //     animationDelay: 0.5 + index / 10 + "s",
+                        // };
                         return (
-                            <StyledSpan style={style} key={index}>
+                            <StyledSpan key={index}>
                                 {letter}
                             </StyledSpan>
                         );
-                    })}
+                    })} */}
                 </TitleContainer>
                 <Skills>MERN Stack Developer</Skills>
                 <Connect

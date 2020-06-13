@@ -44,3 +44,47 @@ export const SocialIconDiv = styled.div`
         display: none;
     }
 `;
+
+export const TitleContainer = styled.div`
+    font-size: 3.5vw;
+    font-weight: 650;
+    line-height: 4.2vw;
+    /* overflow-wrap: break-word; */
+    overflow: hidden;
+    /* position: absolute; */
+    /* width: 25vw;
+    height: 20vh; */
+    ::before {
+        content: "<h1>";
+        font-family: "La Belle Aurore", cursive;
+        color: #515152;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+    }
+    ::after {
+        content: "</h1>";
+        font-family: "La Belle Aurore", cursive;
+        color: #515152;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        @media (max-width: 420px) and (min-width: 360px) {
+            margin-left: -2px;
+        }
+        /* right: 50%; */
+    }
+    @media (max-width: 1000px) {
+        font-size: 37px;
+        line-height: 53px;
+    }
+    p{
+        /* position: absolute; */
+        margin: 0;
+    }
+    .abs{
+        position: absolute;
+    }
+`;

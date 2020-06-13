@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
     width: 93%;
     left: 60px;
     position: absolute;
-    @media (max-width: 900px){
+    @media (max-width: 900px) {
         top: 10%;
         left: 0%;
     }
@@ -34,11 +34,9 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        @media (max-width: 420px) and (min-width: 380px){
+        @media (max-width: 420px) and (min-width: 380px) {
             margin-left: 0px;
         }
-        // -webkit-animation: myanim2 1s 1.7s backwards;
-        // animation: myanim2 1s 1.7s backwards;
     }
     @media (max-width: 1000px) {
         font-size: 37px;
@@ -55,11 +53,11 @@ export const MainContainer = styled.div`
     @media (max-width: 1150px) {
         width: 90%;
     }
-    @media (max-width: 900px){
+    @media (max-width: 900px) {
         left: 20%;
         width: 80%;
     }
-    @media (max-width: 360px){
+    @media (max-width: 360px) {
         top: 17%;
     }
 `;
