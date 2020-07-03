@@ -20,7 +20,7 @@ const Projects = () => {
         {
             name: "weather-app",
             description:
-                "This is my weather app repo. It is made using React. I've implemented the OpenWeatherMap API and used Axios for fetching it. It is responsive too.",
+                "This is a weather app. It is made using React. I've implemented the OpenWeatherMap API and used Axios for fetching it. It is responsive too.",
             link: "https://abhishek-weather-app.netlify.app/",
             date: "Dec 2019",
         },

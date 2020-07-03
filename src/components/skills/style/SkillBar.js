@@ -5,7 +5,6 @@ export const Container = styled.div`
     justify-content: space-around;
     width: 77vw;
     height: 50vh;
-    /* border: 5px solid orangered; */
     color: white;
     padding: 50px;
     @media (max-width: 900px){
@@ -19,7 +18,8 @@ export const LeftContainer = styled.div`
     flex-direction: column;
     width: 30%;
     @media (max-width: 900px){
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
 `;
 
@@ -28,7 +28,8 @@ export const RightContainer = styled.div`
     flex-direction: column;
     width: 30%;
     @media (max-width: 900px){
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
 `;
 

@@ -3,7 +3,7 @@ import { keyframes } from "@emotion/core";
 import ReactLogo from "../../../assets/ReactLogo.png";
 import MongoIcon from "../../../assets/MongoIcon.png";
 import NodeIcon from "../../../assets/NodeIcon.png";
-import ExpressIcon from "../../../assets/ExpressIcon.png";
+import ExpressIcon from "../../../assets/Express.png";
 
 const spin = keyframes`
     0% {
@@ -70,6 +70,7 @@ export const Section = styled.section`
     }
     & > div:nth-of-type(3):after {
         position: absolute;
+        /* left: -290px; */
         content: url(${NodeIcon});
     }
     & > div:nth-of-type(4) {
@@ -98,9 +99,6 @@ export const MainContainer = styled.div`
     @media (max-width: 1255px) {
         top: 14%;
     }
-    @media (max-width: 1150px) {
-        // width: 90%;
-    }
     @media (max-width: 800px) {
         width: initial;
     }
@@ -108,9 +106,10 @@ export const MainContainer = styled.div`
         left: 14%;
         width: 85%;
         overflow-y: scroll;
-        height: 70%;
+        height: 73%;
     }
-    @media (max-width: 350px) {
-        top: 15%;
+    @media (max-width: 390px) {
+        /* top: 15%; */
+        height: 70%;
     }
 `;

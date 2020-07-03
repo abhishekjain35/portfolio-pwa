@@ -17,6 +17,12 @@ export const TitleContainer = styled.div`
     font-size: 3.5vw;
     font-weight: 650;
     line-height: 4.2vw;
+    @media (max-width: 960px){
+        padding-left: 10%;
+        font-size: 35px;
+        line-height: 53px;
+        width: 75%;
+    }
     ::before {
         content: "<h1>";
         font-family: "La Belle Aurore", cursive;
@@ -25,6 +31,10 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: -40px;
         left: -15px;
+        @media (max-width: 960px){
+            left: 0%;
+            margin-top: -15px;
+        }
     }
     ::after {
         content: "</h1>";
@@ -34,13 +44,9 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        @media (max-width: 420px) and (min-width: 380px) {
+        @media (max-width: 420px) and (min-width: 300px) {
             margin-left: 0px;
         }
-    }
-    @media (max-width: 1000px) {
-        font-size: 37px;
-        line-height: 53px;
     }
 `;
 

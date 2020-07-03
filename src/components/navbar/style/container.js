@@ -18,9 +18,7 @@ export const NavContainer = styled.div`
 `;
 
 export const LogoDiv = styled.div`
-    /* background-color: #070707; */
-    background-color: #ff9191;
-    // padding: 8px 0;
+    padding-left: 2px;
     height: 60px;
 `;
 
@@ -37,7 +35,7 @@ export const NavIcon = styled.div`
         flex-direction: row;
         padding: 5px 0 0 50px;
     }
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
         margin-right: 50px;
         width: 65vw;
     }
@@ -49,7 +47,7 @@ export const SocialIcon = styled.div`
         padding-top: 10px;
         padding-right: 10px;
     }
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
         padding-left: 0;
         position: absolute;
         display: flex;
@@ -62,17 +60,30 @@ export const SocialIcon = styled.div`
 
 export const Svg = styled.svg`
     margin: 10px 0;
+    @media (max-width: 600px) {
+        fill: #08fdd8;
+    }
 `;
 
 export const NavSvg = styled.svg`
     margin: 10px 0;
 `;
 
+export const LogoSvg = styled.svg`
+    width: 50px;
+    height: 50px;
+    @media (max-width: 600px) {
+        width: 40px;
+        height: 40px;
+        margin: 20%;
+    }
+`;
+
 export const HoverDiv = styled.div`
     text-decoration: none;
     height: 55px;
     width: 49px;
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
         margin-right: 7px;
         margin-left: 7px;
     }
@@ -88,7 +99,7 @@ export const HoverTxt = styled.span`
 `;
 
 export const SocialMediaDiv = styled.div`
-    @media (max-width : 600px){
+    @media (max-width: 600px) {
         display: none;
     }
-`
+`;

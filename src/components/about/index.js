@@ -5,9 +5,7 @@ import {
     BottomTags,
     BodySpan,
 } from "../reusable-components/style";
-
 import { P, Section, MainContainer } from "./style/style";
-import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -27,13 +25,7 @@ const About = () => {
                     to learn new advancements for these technologies.
                 </P>
                 <P padd="5px">
-                    Apart from that, I also write{" "}
-                    <Link
-                        to="/articles"
-                        style={{ textDecoration: "none", color: "#efb106" }}
-                    >
-                        articles
-                    </Link>{" "}
+                    Apart from that, I also write articles
                     once in a while to explain the tech that I learn.
                 </P>
             </MainContainer>

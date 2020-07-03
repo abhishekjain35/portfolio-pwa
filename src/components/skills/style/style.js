@@ -43,17 +43,17 @@ export const MainContainer = styled.div`
         width: 90%;
     }
     @media (max-width: 900px){
-        left: 14%;
-        width: 80%;
+        left: 10%;
+        width: 90%;
         overflow-y: scroll;
         height: 70%;
     }
     @media (max-width: 350px){
         top: 15%;
     }
-    ::-webkit-scrollbar {
+    /* ::-webkit-scrollbar {
         display: none; /* Safari and Chrome */
-    }
+    } */
     scrollbar-width: none;
     scroll-behavior: smooth;
 `;

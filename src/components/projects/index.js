@@ -5,12 +5,12 @@ const ProjectsPage = ({ data }) => {
     return (
         <HomeContainer>
             <Header>
-                <h1>Checkout some awesome works of mine</h1>
+                <h2 style={{marginTop: "50px"}}>Checkout some awesome works of mine</h2>
             </Header>
             <CardDiv>
                 {data.map((info, index) => (
                     <Card key={index}>
-                        <h2>
+                        <h2 style={{marginBottom: "0px"}}>
                             {info.name}
                             <a
                                 href={info.link}

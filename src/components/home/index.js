@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    StyledSpan,
     Skills,
     Connect,
     SocialIconDiv,
@@ -16,8 +15,6 @@ import {
 import SocialMedia from "./../navbar/socialMedia";
 
 const HomePage = () => {
-    let info = "Hi,$I'm Abhishek,$web developer.";
-
     return (
         <HomeContainer>
             <BodySpan>
@@ -29,19 +26,6 @@ const HomePage = () => {
             <MainContainer>
                 <TitleContainer>
                     Hi,<br />I'm Abhishek,<br /> web developer.
-                    {/* {info.split("").map((letter, index) => {
-                        if (letter === "$") {
-                            return <br key={index} />;
-                        }
-                        // const style = {
-                        //     animationDelay: 0.5 + index / 10 + "s",
-                        // };
-                        return (
-                            <StyledSpan key={index}>
-                                {letter}
-                            </StyledSpan>
-                        );
-                    })} */}
                 </TitleContainer>
                 <Skills>MERN Stack Developer</Skills>
                 <Connect
@@ -73,18 +57,18 @@ const HomePage = () => {
                         >
                             <stop
                                 offset="0"
-                                stop-color="gray"
-                                stop-opacity="0.25"
+                                stopColor="gray"
+                                stopOpacity="0.25"
                             />
                             <stop
                                 offset="0.54"
-                                stop-color="gray"
-                                stop-opacity="0.12"
+                                stopColor="gray"
+                                stopOpacity="0.12"
                             />
                             <stop
                                 offset="1"
-                                stop-color="gray"
-                                stop-opacity="0.1"
+                                stopColor="gray"
+                                stopOpacity="0.1"
                             />
                         </linearGradient>
                     </defs>
@@ -448,8 +432,8 @@ const HomePage = () => {
                         y2="341.86"
                         fill="none"
                         stroke="#6c63ff"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
+                        strokeMiterlimit="10"
+                        strokeWidth="2"
                     />
                     <line
                         x1="198.99"
@@ -458,8 +442,8 @@ const HomePage = () => {
                         y2="354.34"
                         fill="none"
                         stroke="#6c63ff"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
+                        strokeMiterlimit="10"
+                        strokeWidth="2"
                     />
                     <line
                         x1="198.99"
@@ -468,8 +452,8 @@ const HomePage = () => {
                         y2="366.81"
                         fill="none"
                         stroke="#6c63ff"
-                        stroke-miterlimit="10"
-                        stroke-width="2"
+                        strokeMiterlimit="10"
+                        strokeWidth="2"
                     />
                 </svg>
             </MainImageDiv>

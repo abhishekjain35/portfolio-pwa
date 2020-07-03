@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 export const Header = styled.div`
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     @media (max-width: 900px) {
         padding-top: 10%;
     }
@@ -32,9 +33,11 @@ export const Card = styled.div`
     padding: 10px 35px;
     border-radius: 5px;
     color: black;
+    text-align: center;
     @media (max-width: 768px) {
         width: 100%;
         box-shadow: rgb(0, 1, 0) 0px 10px 50px 0px;
+        padding: 10px 25px;
     }
 `;
 
@@ -47,7 +50,7 @@ export const P = styled.p`
 
 export const Date = styled.h5`
     font-size: 14px;
-    letter-spacing: 2px;
+    margin-top: 5px;
 `;
 
 export const HomeContainer = styled.div`
