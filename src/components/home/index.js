@@ -4,7 +4,7 @@ import {
     Connect,
     SocialIconDiv,
     MainImageDiv,
-    TitleContainer
+    TitleContainer,
 } from "./style/HomeContainer";
 import {
     BodySpan,
@@ -25,7 +25,10 @@ const HomePage = () => {
             </SocialIconDiv>
             <MainContainer>
                 <TitleContainer>
-                    Hi,<br />I'm Abhishek,<br /> web developer.
+                    Hi,
+                    <br />
+                    I'm Abhishek,
+                    <br /> web developer.
                 </TitleContainer>
                 <Skills>MERN Stack Developer</Skills>
                 <Connect

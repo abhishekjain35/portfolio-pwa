@@ -8,7 +8,7 @@ import {
     HoverDiv,
     HoverTxt,
     SocialMediaDiv,
-    LogoSvg
+    LogoSvg,
 } from "./style/container";
 import SocialMedia from "./socialMedia";
 
@@ -184,7 +184,7 @@ const NavBar = () => {
                         onMouseLeave={() => setHover("")}
                     >
                         {hover === "projectEnter" ? (
-                            <HoverTxt paddLeft="0">PROJECTS</HoverTxt>
+                            <HoverTxt paddLeft="0">MY WORK</HoverTxt>
                         ) : (
                             <NavSvg
                                 height="25"

@@ -25,8 +25,8 @@ const About = () => {
                     to learn new advancements for these technologies.
                 </P>
                 <P padd="5px">
-                    Apart from that, I also write articles
-                    once in a while to explain the tech that I learn.
+                    Apart from that, I also write articles once in a while to
+                    explain the tech that I learn.
                 </P>
             </MainContainer>
             <Section>
