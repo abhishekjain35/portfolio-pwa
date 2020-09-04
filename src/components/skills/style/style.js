@@ -18,7 +18,7 @@ export const HomeContainer = styled.div`
     width: 93%;
     left: 60px;
     position: absolute;
-    @media (max-width: 900px){
+    @media (max-width: 900px) {
         top: 10%;
         left: 3%;
     }
@@ -27,7 +27,7 @@ export const HomeContainer = styled.div`
 export const BottomTags = styled.span`
     color: #515152;
     position: absolute;
-    bottom: 0;   
+    bottom: 0;
     left: 10px;
     font-size: 18px;
     font-family: "La Belle Aurore", cursive;
@@ -42,18 +42,16 @@ export const MainContainer = styled.div`
     @media (max-width: 1150px) {
         width: 90%;
     }
-    @media (max-width: 900px){
+    @media (max-width: 900px) {
         left: 10%;
         width: 90%;
         overflow-y: scroll;
         height: 70%;
     }
-    @media (max-width: 350px){
+    @media (max-width: 350px) {
         top: 15%;
     }
-    /* ::-webkit-scrollbar {
-        display: none; /* Safari and Chrome */
-    } */
+
     scrollbar-width: none;
     scroll-behavior: smooth;
 `;

@@ -34,6 +34,8 @@ export const MainImageDiv = styled.div`
     right: 10%;
     z-index: -1;
     top: 10%;
+    width: 40vw;
+    height: 70vh;
     @media (max-width: 900px) {
         display: none;
     }
@@ -46,14 +48,10 @@ export const SocialIconDiv = styled.div`
 `;
 
 export const TitleContainer = styled.div`
-    font-size: 3.5vw;
+    font-size: 3.4vw;
     font-weight: 650;
     line-height: 4.2vw;
-    /* overflow-wrap: break-word; */
     overflow: hidden;
-    /* position: absolute; */
-    /* width: 25vw;
-    height: 20vh; */
     ::before {
         content: "<h1>";
         font-family: "La Belle Aurore", cursive;
@@ -80,11 +78,11 @@ export const TitleContainer = styled.div`
         font-size: 37px;
         line-height: 53px;
     }
-    p{
+    p {
         /* position: absolute; */
         margin: 0;
     }
-    .abs{
+    .abs {
         position: absolute;
     }
 `;

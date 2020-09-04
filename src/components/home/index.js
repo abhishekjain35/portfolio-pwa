@@ -46,7 +46,7 @@ const HomePage = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
                     width="40vw"
-                    height="554.17"
+                    height="60vh"
                     viewBox="0 0 1041.32 554.17"
                 >
                     <defs>
