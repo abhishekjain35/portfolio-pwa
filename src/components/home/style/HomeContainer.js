@@ -78,11 +78,7 @@ export const TitleContainer = styled.div`
         font-size: 37px;
         line-height: 53px;
     }
-    p {
-        /* position: absolute; */
-        margin: 0;
-    }
-    .abs {
-        position: absolute;
+    @media (max-width: 400px) and (min-width: 360px) {
+        width: 95%;
     }
 `;

@@ -17,7 +17,7 @@ export const TitleContainer = styled.div`
     font-size: 3.5vw;
     font-weight: 650;
     line-height: 4.2vw;
-    @media (max-width: 960px){
+    @media (max-width: 960px) {
         padding-left: 10%;
         font-size: 35px;
         line-height: 53px;
@@ -31,7 +31,7 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: -40px;
         left: -15px;
-        @media (max-width: 960px){
+        @media (max-width: 960px) {
             left: 0%;
             margin-top: -15px;
         }
@@ -53,7 +53,7 @@ export const TitleContainer = styled.div`
 export const MainContainer = styled.div`
     left: 5%;
     top: 30%;
-    width: 60%;
+    width: 40%;
     height: 50%;
     position: absolute;
     @media (max-width: 1150px) {
