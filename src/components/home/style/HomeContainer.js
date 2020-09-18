@@ -69,7 +69,7 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        @media (max-width: 420px) and (min-width: 360px) {
+        @media (max-width: 420px) and (min-width: 345px) {
             margin-left: -2px;
         }
         /* right: 50%; */
@@ -78,7 +78,7 @@ export const TitleContainer = styled.div`
         font-size: 37px;
         line-height: 53px;
     }
-    @media (max-width: 400px) and (min-width: 360px) {
+    @media (max-width: 400px) and (min-width: 345px) {
         width: 95%;
     }
 `;

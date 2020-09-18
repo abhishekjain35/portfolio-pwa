@@ -24,7 +24,6 @@ export const LogoDiv = styled.div`
 
 export const NavIcon = styled.div`
     padding-top: 80px;
-    padding-left: 5px;
     display: flex;
     flex-direction: column;
     height: 35vh;
@@ -38,6 +37,18 @@ export const NavIcon = styled.div`
     @media (max-width: 600px) {
         margin-right: 50px;
         width: 65vw;
+    }
+    /* NOTE: New code */
+    @media (min-width: 900px) {
+        & > a {
+            width: 100%;
+        }
+        & > a:hover {
+            width: 120px;
+            background-color: #08fdd8;
+            text-decoration: none;
+            transition: width 0.15s ease-in;
+        }
     }
 `;
 
@@ -66,7 +77,7 @@ export const Svg = styled.svg`
 `;
 
 export const NavSvg = styled.svg`
-    margin: 10px 0;
+    margin: auto 0;
 `;
 
 export const LogoSvg = styled.svg`
@@ -82,20 +93,28 @@ export const LogoSvg = styled.svg`
 export const HoverDiv = styled.div`
     text-decoration: none;
     height: 55px;
-    width: 49px;
+    /* width: 49px; NEW */
+    /* margin: auto 0; NEW */
     @media (max-width: 600px) {
         margin-right: 7px;
         margin-left: 7px;
     }
+    /* NOTE: new code */
+    display: flex;
+    justify-content: center;
 `;
 
-export const HoverTxt = styled.span`
-    position: absolute;
-    padding: 17px 0;
-    padding-left: ${({ paddLeft }) => (paddLeft ? paddLeft : "8px")};
-    color: #08fdd8;
+export const HoverTxt = styled.p`
+    /* position: absolute; */
+    /* padding: 17px 0; */
+    /* padding-left: ${({ paddLeft }) => (paddLeft ? paddLeft : "8px")}; */
+    /* color: #08fdd8; */
+    color: #333;
     font-size: 9px;
     letter-spacing: 2px;
+    margin: 0;
+    height: 10px;
+    margin: auto 0;
 `;
 
 export const SocialMediaDiv = styled.div`
