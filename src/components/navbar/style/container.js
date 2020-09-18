@@ -38,7 +38,6 @@ export const NavIcon = styled.div`
         margin-right: 50px;
         width: 65vw;
     }
-    /* NOTE: New code */
     @media (min-width: 900px) {
         & > a {
             width: 100%;
@@ -93,22 +92,15 @@ export const LogoSvg = styled.svg`
 export const HoverDiv = styled.div`
     text-decoration: none;
     height: 55px;
-    /* width: 49px; NEW */
-    /* margin: auto 0; NEW */
     @media (max-width: 600px) {
         margin-right: 7px;
         margin-left: 7px;
     }
-    /* NOTE: new code */
     display: flex;
     justify-content: center;
 `;
 
 export const HoverTxt = styled.p`
-    /* position: absolute; */
-    /* padding: 17px 0; */
-    /* padding-left: ${({ paddLeft }) => (paddLeft ? paddLeft : "8px")}; */
-    /* color: #08fdd8; */
     color: #333;
     font-size: 9px;
     letter-spacing: 2px;
