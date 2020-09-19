@@ -32,7 +32,7 @@ export const NavIcon = styled.div`
         width: 35vw;
         height: initial;
         flex-direction: row;
-        padding: 5px 0 0 50px;
+        padding: 0px 0 0 50px;
     }
     @media (max-width: 600px) {
         margin-right: 50px;

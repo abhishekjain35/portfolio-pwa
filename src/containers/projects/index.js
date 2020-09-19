@@ -8,7 +8,7 @@ const Projects = () => {
             description:
                 "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, stripe and Braintree payment gateways.",
             link: "https://github.com/abhishekjain35/Tshirt-store",
-            date: "March - Apr, 2019",
+            date: "March - Apr, 2020",
         },
         {
             name: "Vidly-backend",
