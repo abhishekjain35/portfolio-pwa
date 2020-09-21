@@ -1,13 +1,9 @@
 import React from "react";
-import {
-    HomeContainer,
-    BottomTags,
-    MainContainer,
-} from "./style/style";
+import { HomeContainer, BottomTags, MainContainer } from "./style/style";
 import { TitleContainer, BodySpan } from "../reusable-components/style";
 import SkillsBar from "./SkillBar";
 
-const SkillsPage = () => {
+const SkillsComponent = () => {
     return (
         <HomeContainer>
             <BodySpan>
@@ -24,4 +20,4 @@ const SkillsPage = () => {
     );
 };
 
-export default SkillsPage;
+export default SkillsComponent;

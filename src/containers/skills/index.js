@@ -1,8 +1,8 @@
 import React from "react";
-import SkillsPage from "./../../components/skills/index";
+import SkillsComponent from "./../../components/skills/index";
 
-const Skills = () => {
-    return <SkillsPage />;
+const SkillsContainer = () => {
+    return <SkillsComponent />;
 };
 
-export default Skills;
+export default SkillsContainer;

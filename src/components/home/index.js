@@ -14,7 +14,7 @@ import {
 } from "../reusable-components/style";
 import SocialMedia from "./../navbar/socialMedia";
 
-const HomePage = () => {
+const HomeComponent = () => {
     return (
         <HomeContainer>
             <BodySpan>
@@ -30,7 +30,7 @@ const HomePage = () => {
                     I'm Abhishek,
                     <br /> web developer.
                 </TitleContainer>
-                <Skills>MERN Stack Developer</Skills>
+                <Skills>Full Stack Web Developer</Skills>
                 <Connect
                     href="https://www.linkedin.com/in/abhishekjain35/"
                     target="_blank"
@@ -467,4 +467,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default HomeComponent;

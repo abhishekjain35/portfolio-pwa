@@ -1,10 +1,8 @@
-import React from 'react';
-import NavBar from '../../components/navbar';
+import React from "react";
+import NavbarComponent from "../../components/navbar";
 
-const Navbar = () => {
-    return ( 
-        <NavBar />
-     );
-}
- 
-export default Navbar;
+const NavbarContainer = () => {
+    return <NavbarComponent />;
+};
+
+export default NavbarContainer;

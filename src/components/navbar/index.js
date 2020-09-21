@@ -12,7 +12,7 @@ import {
 } from "./style/container";
 import SocialMedia from "./socialMedia";
 
-const NavBar = () => {
+const NavbarComponent = () => {
     let route = useLocation().pathname;
     const [hover, setHover] = useState("");
 
@@ -89,7 +89,7 @@ const NavBar = () => {
                 <Link
                     to="/"
                     aria-label="home"
-                    onMouseEnter={
+                    onMouseOver={
                         window.innerWidth <= 960
                             ? null
                             : () => setHover("homeIcon")
@@ -266,4 +266,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default NavbarComponent;

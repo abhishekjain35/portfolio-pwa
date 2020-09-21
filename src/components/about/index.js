@@ -7,7 +7,7 @@ import {
 } from "../reusable-components/style";
 import { P, Section, MainContainer } from "./style/style";
 
-const About = () => {
+const AboutComponent = () => {
     return (
         <HomeContainer>
             <BodySpan>
@@ -16,7 +16,7 @@ const About = () => {
             <MainContainer>
                 <TitleContainer>About Me</TitleContainer>
                 <P>
-                    I'm a MERN Stack developer based in India. I have a serious
+                    I'm a Full Stack developer based in India. I have a serious
                     passion for creating fully functional web applications with
                     an excellent user interface.
                 </P>
@@ -42,4 +42,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutComponent;

@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectsPage from "./../../components/projects/index";
+import ProjectsComponent from "./../../components/projects/index";
 
-const Projects = () => {
+const ProjectsContainer = () => {
     const data = [
         {
             name: "Tshirt-store",
@@ -47,7 +47,7 @@ const Projects = () => {
         },
     ];
 
-    return <ProjectsPage data={data} />;
+    return <ProjectsComponent data={data} />;
 };
 
-export default Projects;
+export default ProjectsContainer;

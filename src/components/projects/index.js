@@ -1,22 +1,24 @@
 import React from "react";
 import { Header, CardDiv, Card, P, Date, HomeContainer } from "./style/style";
 
-const ProjectsPage = ({ data }) => {
+const ProjectsComponent = ({ data }) => {
     return (
         <HomeContainer>
             <Header>
-                <h2 style={{marginTop: "50px"}}>Checkout some awesome works of mine</h2>
+                <h2 style={{ marginTop: "50px" }}>
+                    Checkout some awesome works of mine
+                </h2>
             </Header>
             <CardDiv>
                 {data.map((info, index) => (
                     <Card key={index}>
-                        <h2 style={{marginBottom: "0px"}}>
+                        <h2 style={{ marginBottom: "0px" }}>
                             {info.name}
                             <a
                                 href={info.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{paddingLeft: "15px"}}
+                                style={{ paddingLeft: "15px" }}
                             >
                                 <svg
                                     aria-hidden="true"
@@ -46,4 +48,4 @@ const ProjectsPage = ({ data }) => {
     );
 };
 
-export default ProjectsPage;
+export default ProjectsComponent;

@@ -1,13 +1,13 @@
 import React, { Suspense, lazy } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Navbar from "./containers/navbar/index";
+// import Navbar from "./containers/navbar/index";
 import { ThemeProvider } from "emotion-theming";
 
-const Home = lazy(() => import("./containers/home/index"));
-const About = lazy(() => import("./containers/about/index"));
-const Skills = lazy(() => import("./containers/skills/index"));
-const Projects = lazy(() => import("./containers/projects/index"));
+const Home = lazy(() => import("./pages/home"));
+const About = lazy(() => import("./pages/about"));
+const Skills = lazy(() => import("./pages/skills"));
+const Projects = lazy(() => import("./pages/projects"));
 
 const HomePage = () => (
     <Suspense fallback={<h1>Loading...</h1>}>
@@ -36,7 +36,7 @@ const ProjectsPage = () => (
 const App = () => {
     return (
         <ThemeProvider theme={{ color: "white" }}>
-            <Navbar />
+            {/* <Navbar /> */}
             <Switch>
                 <Route path="/about" component={AboutPage}></Route>
                 <Route path="/skills" component={SkillsPage}></Route>
