@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
     NavContainer,
@@ -12,9 +12,8 @@ import {
 } from "./style/container";
 import SocialMedia from "./socialMedia";
 
-const NavbarComponent = () => {
+const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
     let route = useLocation().pathname;
-    const [hover, setHover] = useState("");
 
     return (
         <NavContainer>
@@ -89,12 +88,8 @@ const NavbarComponent = () => {
                 <Link
                     to="/"
                     aria-label="home"
-                    onMouseOver={
-                        window.innerWidth <= 960
-                            ? null
-                            : () => setHover("homeIcon")
-                    }
-                    onMouseLeave={() => setHover("")}
+                    onMouseOver={() => handleMouseOver("homeIcon")}
+                    onMouseLeave={handleMouseLeave}
                 >
                     <HoverDiv>
                         {hover === "homeIcon" ? (
@@ -132,12 +127,8 @@ const NavbarComponent = () => {
                 <Link
                     to="/about"
                     aria-label="About"
-                    onMouseEnter={
-                        window.innerWidth <= 960
-                            ? null
-                            : () => setHover("aboutEnter")
-                    }
-                    onMouseLeave={() => setHover("")}
+                    onMouseOver={() => handleMouseOver("aboutEnter")}
+                    onMouseLeave={handleMouseLeave}
                 >
                     <HoverDiv>
                         {hover === "aboutEnter" ? (
@@ -175,12 +166,8 @@ const NavbarComponent = () => {
                 <Link
                     to="/skills"
                     aria-label="Skills"
-                    onMouseEnter={
-                        window.innerWidth <= 960
-                            ? null
-                            : () => setHover("skillEnter")
-                    }
-                    onMouseLeave={() => setHover("")}
+                    onMouseOver={() => handleMouseOver("skillEnter")}
+                    onMouseLeave={handleMouseLeave}
                 >
                     <HoverDiv>
                         {hover === "skillEnter" ? (
@@ -220,12 +207,8 @@ const NavbarComponent = () => {
                 <Link
                     to="/projects"
                     aria-label="Projects"
-                    onMouseEnter={
-                        window.innerWidth <= 960
-                            ? null
-                            : () => setHover("projectEnter")
-                    }
-                    onMouseLeave={() => setHover("")}
+                    onMouseOver={() => handleMouseOver("projectEnter")}
+                    onMouseLeave={handleMouseLeave}
                 >
                     <HoverDiv>
                         {hover === "projectEnter" ? (

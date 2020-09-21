@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import NavbarComponent from "../../components/navbar";
 
 const NavbarContainer = () => {
-    return <NavbarComponent />;
+    const [hover, setHover] = useState("");
+
+    const handleMouseOver = (value) => {
+        if (window.innerWidth >= 960) {
+            setHover(value);
+        }
+    };
+    const handleMouseLeave = () => {
+        setHover("")
+    }
+
+    return <NavbarComponent hover={hover} handleMouseOver={handleMouseOver} handleMouseLeave={handleMouseLeave} />;
 };
 
 export default NavbarContainer;
