@@ -4,16 +4,23 @@ import ProjectsComponent from "./../../components/projects/index";
 const ProjectsContainer = () => {
     const data = [
         {
+            name: "Take-notes",
+            description:
+                "It's a note-taking web-app. It is made using ReactJs and uses material-UI. It uses QuillJs as the editor for taking notes, Firebase for authentication and cloud firestore as the database. Installable and works offline because it's a PWA(Progressive-Web-App)",
+            link: "https://takenotes1.netlify.app/",
+            date: "Jul 2020 – Aug 2020",
+        },
+        {
             name: "Tshirt-store",
             description:
-                "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, stripe and Braintree payment gateways.",
+                "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, Signup/Sign-in Validation, CRUD operations on products and Categories by admins(With Validation), Users and their carts, Create order and their status, Payments through Stripe and Braintree.",
             link: "https://github.com/abhishekjain35/Tshirt-store",
             date: "March - Apr, 2020",
         },
         {
             name: "Vidly-backend",
             description:
-                "Vidly is a video rental application. This is the backend part of it and is made with NodeJS, express and MongoDB.",
+                "Vidly is a video rental application. This is the backend part of it and is made with NodeJS, express and MongoDB. It has features like Signup/Login, rent movies, stocks, categories etc.",
             link: "https://github.com/abhishekjain35/Vidly-backend",
             date: "Feb 2020",
         },
