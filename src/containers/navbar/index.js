@@ -10,10 +10,16 @@ const NavbarContainer = () => {
         }
     };
     const handleMouseLeave = () => {
-        setHover("")
-    }
+        setHover("");
+    };
 
-    return <NavbarComponent hover={hover} handleMouseOver={handleMouseOver} handleMouseLeave={handleMouseLeave} />;
+    return (
+        <NavbarComponent
+            hover={hover}
+            handleMouseOver={handleMouseOver}
+            handleMouseLeave={handleMouseLeave}
+        />
+    );
 };
 
 export default NavbarContainer;

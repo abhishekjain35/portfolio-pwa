@@ -7,6 +7,7 @@ const Container = styled.div`
     text-align: center;
     color: rgb(81, 89, 93);
     height: 90vh;
+    color: #08fdd8;
     & > img {
         min-width: 300px;
         width: 40vw;
@@ -15,7 +16,6 @@ const Container = styled.div`
     }
     & > h4 > a {
         text-decoration: none;
-        color: ${(props) => props.theme.accentColor};
     }
     @media (max-width: 670px) {
         & > h4 {
