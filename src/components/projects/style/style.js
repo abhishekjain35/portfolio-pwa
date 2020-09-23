@@ -5,7 +5,8 @@ export const Header = styled.div`
     padding-top: 30px;
     padding-bottom: 30px;
     @media (max-width: 900px) {
-        padding-top: 10%;
+        padding-top: 60px;
+        padding-bottom: 0;
     }
 `;
 
@@ -17,13 +18,13 @@ export const CardDiv = styled.div`
     -webkit-box-pack: center;
     justify-content: center;
     color: rgb(70, 70, 70);
-    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Cantarell,Fira Sans,Droid Sans,sans-serif;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu,
+        Cantarell, Fira Sans, Droid Sans, sans-serif;
     scroll-behavior: smooth;
 `;
 
 export const Card = styled.div`
     padding: 10px;
-    background-color: #ae936c;
     background-color: #e0c595;
     width: 25%;
     box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 10px 0px;
@@ -36,8 +37,8 @@ export const Card = styled.div`
     text-align: center;
     @media (max-width: 768px) {
         width: 100%;
-        box-shadow: rgb(0, 1, 0) 0px 10px 50px 0px;
         padding: 10px 25px;
+        margin: 20px 20px;
     }
 `;
 
@@ -60,12 +61,11 @@ export const HomeContainer = styled.div`
     left: 60px;
     position: absolute;
     @media (max-width: 900px) {
-        // padding-top: 10%;
         left: 3%;
     }
     ::-webkit-scrollbar {
-        display: none; /* Safari and Chrome */
-    }   
+        display: none;
+    }
     scrollbar-width: none;
     overflow-y: scroll;
 `;

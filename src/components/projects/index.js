@@ -5,7 +5,7 @@ const ProjectsComponent = ({ data }) => {
     return (
         <HomeContainer>
             <Header>
-                <h2 style={{ marginTop: "50px" }}>
+                <h2>
                     Checkout some awesome works of mine
                 </h2>
             </Header>
@@ -18,14 +18,12 @@ const ProjectsComponent = ({ data }) => {
                                 href={info.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                style={{ paddingLeft: "15px" }}
+                                style={{ paddingLeft: "10px", position:"absolute", paddingTop: "3px" }}
                             >
                                 <svg
                                     aria-hidden="true"
                                     focusable="false"
-                                    data-prefix="fas"
                                     data-icon="link"
-                                    className="svg-inline--fa fa-link fa-w-16"
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 512 512"

@@ -8,7 +8,7 @@ const ProjectsContainer = () => {
             description:
                 "It's a note-taking web-app. It is made using ReactJs and uses material-UI. It uses QuillJs as the editor for taking notes, Firebase for authentication and cloud firestore as the database. Installable and works offline because it's a PWA(Progressive-Web-App)",
             link: "https://takenotes1.netlify.app/",
-            date: "Jul 2020 – Aug 2020",
+            date: "Jul – Aug, 2020",
         },
         {
             name: "Tshirt-store",
