@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
+import Fallback from "./components/reusable-components/fallback"
 import "./App.css";
 
 const Home = lazy(() => import("./pages/home"));
@@ -9,31 +10,31 @@ const Projects = lazy(() => import("./pages/projects"));
 const NotFound = lazy(() => import("./pages/not-found"));
 
 const HomePage = () => (
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<Fallback />}>
         <Home />
     </Suspense>
 );
 
 const AboutPage = () => (
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<Fallback />}>
         <About />
     </Suspense>
 );
 
 const SkillsPage = () => (
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<Fallback />}>
         <Skills />
     </Suspense>
 );
 
 const ProjectsPage = () => (
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<Fallback />}>
         <Projects />
     </Suspense>
 );
 
 const NotFoundPage = () => (
-    <Suspense fallback={<h1>Loading...</h1>}>
+    <Suspense fallback={<Fallback />}>
         <NotFound />
     </Suspense>
 );
