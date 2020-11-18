@@ -17,3 +17,10 @@ body {
     font-family: 'MyWebFont';
     src: url('./assets/mainFont.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'icomoon';
+    src: url('./assets/icomoon.ttf?ccciao') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

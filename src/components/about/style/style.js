@@ -22,9 +22,7 @@ export const P = styled.p`
 
 export const Section = styled.section`
     position: absolute;
-    // left: 60%;
     right: 40%;
-    // padding-left: 120px;
     top: 50%;
     margin-top: -210px;
     height: 500px;
@@ -80,10 +78,7 @@ export const Section = styled.section`
     }
     & > div:nth-of-type(4):after {
         position: absolute;
-        // width: 150px;
         content: url(${ExpressIcon});
-        // left: -315px;
-        // top: -91px;
     }
     @media (max-width: 960px) {
         display: none;
@@ -109,7 +104,6 @@ export const MainContainer = styled.div`
         height: 73%;
     }
     @media (max-width: 390px) {
-        /* top: 15%; */
         height: 70%;
     }
 `;

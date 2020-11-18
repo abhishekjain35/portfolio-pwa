@@ -49,6 +49,9 @@ export const NavIcon = styled.div`
             transition: width 0.15s ease-in;
         }
     }
+    & > a {
+        text-decoration: none;
+    }
 `;
 
 export const SocialIcon = styled.div`
@@ -73,10 +76,6 @@ export const Svg = styled.svg`
     @media (max-width: 600px) {
         fill: #08fdd8;
     }
-`;
-
-export const NavSvg = styled.svg`
-    margin: auto 0;
 `;
 
 export const LogoSvg = styled.svg`
@@ -112,5 +111,28 @@ export const HoverTxt = styled.p`
 export const SocialMediaDiv = styled.div`
     @media (max-width: 600px) {
         display: none;
+    }
+`;
+
+export const Icon = styled.i`
+    font-family: "icomoon" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 40px;
+    height: 25px;
+    color: rgb(77, 77, 78);
+
+    &:before {
+        content: attr(data-icon);
+        font-size: ${(props) => props.fontSize ? props.fontSize : "20px"};
     }
 `;
