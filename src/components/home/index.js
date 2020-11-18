@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     Skills,
     Connect,
     SocialIconDiv,
     MainImageDiv,
     TitleContainer,
+    Span,
 } from "./style/HomeContainer";
 import {
     BodySpan,
@@ -15,6 +16,25 @@ import {
 import SocialMedia from "./../navbar/socialMedia";
 
 const HomeComponent = () => {
+    const greetings = "Hi,";
+    const name = "Abhishek,";
+    const web = "web";
+    const developer = "developer.";
+
+    useEffect(() => {
+        let title = document.getElementsByClassName("title");
+        let letters = title[0].childNodes;
+        letters.forEach((letter) => {
+            if (!(letter.textContent === " ")) {
+                letter.addEventListener("mouseenter", () => {
+                    letter.classList.add("blast");
+                    setTimeout(() => {
+                        letter.classList.remove("blast");
+                    }, 1000);
+                });
+            }
+        });
+    }, []);
     return (
         <HomeContainer>
             <BodySpan>
@@ -24,11 +44,30 @@ const HomeComponent = () => {
                 <SocialMedia />
             </SocialIconDiv>
             <MainContainer>
-                <TitleContainer>
-                    Hi,
+                <TitleContainer className="title">
+                    {greetings.split("").map((ele, i) => (
+                        <Span key={i}>{ele}</Span>
+                    ))}
+                    <br />
+                    <Span>I</Span>
+                    <Span>&rsquo;</Span>
+                    <Span>m</Span>
+                    <span> </span>
+                    {name.split("").map((ele, i) => (
+                        <Span key={i}>{ele}</Span>
+                    ))}
+                    <br />
+                    {web.split("").map((ele, i) => (
+                        <Span key={i}>{ele}</Span>
+                    ))}
+                    <span> </span>
+                    {developer.split("").map((ele, i) => (
+                        <Span key={i}>{ele}</Span>
+                    ))}
+                    {/* Hi,
                     <br />
                     I'm Abhishek,
-                    <br /> web developer.
+                    <br /> web developer. */}
                 </TitleContainer>
                 <Skills>Full Stack Web Developer</Skills>
                 <Connect
