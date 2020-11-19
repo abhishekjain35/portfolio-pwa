@@ -5,16 +5,23 @@ import {
     BottomTags,
     BodySpan,
 } from "../reusable-components/style";
-import { P, Section, MainContainer } from "./style/style";
+import { P, Section, MainContainer, Span } from "./style/style";
 
-const AboutComponent = () => {
+const AboutComponent = ({handleAnimation}) => {
     return (
         <HomeContainer>
             <BodySpan>
                 &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
             </BodySpan>
             <MainContainer>
-                <TitleContainer>About Me</TitleContainer>
+                <TitleContainer onMouseEnter={handleAnimation}>
+                    {"About".split("").map(letter => (
+                        <Span>{letter}</Span>
+                    ))}
+                    <span> </span>
+                    <Span>m</Span>
+                    <Span>e</Span>
+                </TitleContainer>
                 <P>
                     I'm a Full Stack developer based in India. I have a serious
                     passion for creating fully functional web applications with

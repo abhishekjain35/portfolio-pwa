@@ -107,3 +107,7 @@ export const MainContainer = styled.div`
         height: 70%;
     }
 `;
+
+export const Span = styled.span`
+    display: inline-block;
+`

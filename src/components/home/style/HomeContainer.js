@@ -81,11 +81,7 @@ const rubberBand = keyframes`
 export const TitleContainer = styled.div`
     font-size: 60px;
     font-weight: normal;
-    /* font-size: 3.4vw; */
-    /* font-weight: 650; */
-    /* line-height: 4.2vw; */
     line-height: 53px;
-    /* overflow: hidden; */
     font-family: MyWebFont, sans-serif;
     ::before {
         content: "<h1>";

@@ -17,6 +17,7 @@ export const TitleContainer = styled.div`
     font-size: 3.5vw;
     font-weight: 650;
     line-height: 4.2vw;
+    font-family: MyWebFont, sans-serif;
     @media (max-width: 960px) {
         padding-left: 10%;
         font-size: 35px;

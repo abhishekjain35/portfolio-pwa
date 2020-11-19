@@ -23,20 +23,35 @@ export const LogoDiv = styled.div`
 `;
 
 export const NavIcon = styled.div`
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    height: 35vh;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
     @media (max-width: 900px) {
-        width: 35vw;
-        height: initial;
-        flex-direction: row;
-        padding: 0px 0 0 50px;
+        width: 42%;
+        position: absolute;
+        left: 50%;
+        margin-left: -19%;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        height: 60px;
+        top: 0;
+        margin-top: 0;
     }
-    @media (max-width: 600px) {
-        margin-right: 50px;
-        width: 65vw;
+    @media (max-width: 600px){
+        left: initial;
+        right: 0;
+        width: 70%;
+    }
+    & > a {
+        @media (max-width: 900px) {
+            float: left;
+            margin-left: 14%;
+            line-height: 60px;
+            height: 100% !important;
+            &:first-child{
+                margin-left: 0;
+            }
+        }
     }
     @media (min-width: 900px) {
         & > a {
@@ -50,7 +65,16 @@ export const NavIcon = styled.div`
         }
     }
     & > a {
+        font-size: 20px;
+        color: #a5a5a5;
+        margin-bottom: 15px;
+        display: block;
+        height: 51px;
+        position: relative;
         text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `;
 
@@ -88,24 +112,12 @@ export const LogoSvg = styled.svg`
     }
 `;
 
-export const HoverDiv = styled.div`
-    text-decoration: none;
-    height: 55px;
-    @media (max-width: 600px) {
-        margin-right: 7px;
-        margin-left: 7px;
-    }
-    display: flex;
-    justify-content: center;
-`;
-
 export const HoverTxt = styled.p`
     color: #333;
     font-size: 9px;
     letter-spacing: 2px;
     margin: 0;
-    height: 10px;
-    margin: auto 0;
+    display: inline-block;
 `;
 
 export const SocialMediaDiv = styled.div`
@@ -121,10 +133,6 @@ export const Icon = styled.i`
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    margin: auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 40px;
@@ -133,6 +141,9 @@ export const Icon = styled.i`
 
     &:before {
         content: attr(data-icon);
-        font-size: ${(props) => props.fontSize ? props.fontSize : "20px"};
+        font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
+    }
+    @media (max-width: 900px){
+        width: initial;
     }
 `;
