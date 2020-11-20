@@ -7,16 +7,16 @@ import {
 } from "../reusable-components/style";
 import { P, Section, MainContainer, Span } from "./style/style";
 
-const AboutComponent = ({handleAnimation}) => {
+const AboutComponent = ({ handleAnimation }) => {
     return (
         <HomeContainer>
             <BodySpan>
                 &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
             </BodySpan>
             <MainContainer>
-                <TitleContainer onMouseEnter={handleAnimation}>
-                    {"About".split("").map(letter => (
-                        <Span>{letter}</Span>
+                <TitleContainer onMouseOver={handleAnimation}>
+                    {"About".split("").map((letter) => (
+                        <Span key={letter}>{letter}</Span>
                     ))}
                     <span> </span>
                     <Span>m</Span>

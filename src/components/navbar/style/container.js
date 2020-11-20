@@ -48,7 +48,7 @@ export const NavIcon = styled.div`
             margin-left: 14%;
             line-height: 60px;
             height: 100% !important;
-            &:first-child{
+            &:first-of-type{
                 margin-left: 0;
             }
         }

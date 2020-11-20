@@ -13,14 +13,15 @@ export const P = styled.p`
 
 export const HomeContainer = styled.div`
     color: white;
-    height: 90%;
+    height: 93%;
     top: 5%;
-    width: 93%;
+    width: 100%;
     left: 60px;
     position: absolute;
     @media (max-width: 900px) {
         top: 10%;
         left: 3%;
+        height: 90%;
     }
 `;
 
@@ -36,8 +37,8 @@ export const BottomTags = styled.span`
 export const MainContainer = styled.div`
     left: 5%;
     top: 30%;
-    width: 60%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     position: absolute;
     @media (max-width: 1150px) {
         width: 90%;
@@ -54,4 +55,8 @@ export const MainContainer = styled.div`
 
     scrollbar-width: none;
     scroll-behavior: smooth;
+`;
+
+export const Span = styled.span`
+    display: inline-block;
 `;

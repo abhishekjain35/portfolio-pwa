@@ -3,10 +3,8 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
     display: flex;
     justify-content: space-around;
-    width: 77vw;
-    height: 50vh;
     color: white;
-    padding: 50px;
+    padding: 15px;
     @media (max-width: 900px){
         display: initial;
         padding: 0;

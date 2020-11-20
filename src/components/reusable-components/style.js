@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { keyframes } from "@emotion/core";
 
 export const HomeContainer = styled.div`
     color: white;
@@ -13,17 +14,41 @@ export const HomeContainer = styled.div`
     }
 `;
 
-export const TitleContainer = styled.div`
-    font-size: 3.5vw;
-    font-weight: 650;
-    line-height: 4.2vw;
-    font-family: MyWebFont, sans-serif;
-    @media (max-width: 960px) {
-        padding-left: 10%;
-        font-size: 35px;
-        line-height: 53px;
-        width: 75%;
+const rubberBand = keyframes`
+    from {
+      transform: scale3d(1, 1, 1);
     }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  `;
+
+export const TitleContainer = styled.div`
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 53px;
+    font-family: MyWebFont, sans-serif;
     ::before {
         content: "<h1>";
         font-family: "La Belle Aurore", cursive;
@@ -32,10 +57,6 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: -40px;
         left: -15px;
-        @media (max-width: 960px) {
-            left: 0%;
-            margin-top: -15px;
-        }
     }
     ::after {
         content: "</h1>";
@@ -45,9 +66,28 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        @media (max-width: 420px) and (min-width: 300px) {
-            margin-left: 0px;
+        @media (max-width: 420px) and (min-width: 345px) {
+            margin-left: -2px;
         }
+    }
+    @media (max-width: 1024px) {
+        font-size: 54px;
+        line-height: 53px;
+    }
+    @media (max-width: 750px) {
+        font-size: 47px;
+        line-height: 40px;
+    }
+    @media (max-width: 530px) {
+        font-size: 40px;
+    }
+
+    user-select: none;
+    & > .blast {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-iteration-count: 1;
+        animation-name: ${rubberBand};
     }
 `;
 

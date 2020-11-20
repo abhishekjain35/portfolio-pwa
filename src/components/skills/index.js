@@ -1,16 +1,22 @@
 import React from "react";
-import { HomeContainer, BottomTags, MainContainer } from "./style/style";
+import { HomeContainer, BottomTags, MainContainer, Span } from "./style/style";
 import { TitleContainer, BodySpan } from "../reusable-components/style";
 import SkillsBar from "./SkillBar";
 
-const SkillsComponent = () => {
+const SkillsComponent = ({handleAnimation}) => {
     return (
         <HomeContainer>
             <BodySpan>
                 &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
             </BodySpan>
-            <MainContainer style={{ top: "15%" }}>
-                <TitleContainer>Skills & Experience</TitleContainer>
+            <MainContainer style={{ top: "12%" }}>
+                <TitleContainer>
+                <Span onMouseEnter={handleAnimation}>Skills</Span>
+                <span> </span>
+                <Span onMouseEnter={handleAnimation}>&</Span>
+                <br />
+                <Span onMouseEnter={handleAnimation}>Experience</Span>
+                </TitleContainer>
                 <SkillsBar />
             </MainContainer>
             <BottomTags>

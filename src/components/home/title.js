@@ -1,5 +1,6 @@
-import React, {useEffect} from "react";
-import { TitleContainer, Span } from "./style/HomeContainer";
+import React, { useEffect } from "react";
+import { Span } from "./style/HomeContainer";
+import { TitleContainer } from "../reusable-components/style";
 
 const Title = () => {
     const greetings = "Hi,";

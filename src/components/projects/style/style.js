@@ -8,6 +8,16 @@ export const Header = styled.div`
         padding-top: 60px;
         padding-bottom: 0;
     }
+    & > h2 {
+        font-family: MyWebFont, sans-serif;
+        display: inline-block;
+        font-weight: normal;
+        font-size: 35px;
+        @media (max-width: 900px){
+            font-size: 30px;
+        }
+    }
+    
 `;
 
 export const CardDiv = styled.div`
