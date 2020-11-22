@@ -45,6 +45,9 @@ export const Card = styled.div`
     border-radius: 5px;
     color: black;
     text-align: center;
+    @media (max-width: 1200px){
+        width: 40%;
+    }
     @media (max-width: 768px) {
         width: 100%;
         padding: 10px 25px;

@@ -14,7 +14,11 @@ const AboutComponent = ({ handleAnimation }) => {
                 &lt;html&gt; <br /> &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
             </BodySpan>
             <MainContainer>
-                <TitleContainer onMouseOver={handleAnimation}>
+                <TitleContainer
+                    paddingLeft={960}
+                    customH1={960}
+                    onMouseOver={handleAnimation}
+                >
                     {"About".split("").map((letter) => (
                         <Span key={letter}>{letter}</Span>
                     ))}

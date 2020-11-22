@@ -57,6 +57,17 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: -40px;
         left: -15px;
+        ${({ customH1 }) =>
+            (customH1 === 960 &&
+                `@media (max-width: 960px) {
+            margin-top: -10px;
+            left: 0px;
+        }`) ||
+            (customH1 === 900 &&
+                `@media (max-width: 900px) {
+            margin-top: -10px;
+            left: 0px;
+        }`)}
     }
     ::after {
         content: "</h1>";
@@ -66,8 +77,12 @@ export const TitleContainer = styled.div`
         position: absolute;
         margin-top: 18px;
         margin-left: 20px;
-        @media (max-width: 420px) and (min-width: 345px) {
+        @media (max-width: 420px) and (min-width: 330px) {
             margin-left: -2px;
+        }
+        @media (max-width: 350px) {
+            display: ${(props) =>
+                props.displayNoneAtSmallScreen ? "none" : "initial"};
         }
     }
     @media (max-width: 1024px) {
@@ -81,7 +96,19 @@ export const TitleContainer = styled.div`
     @media (max-width: 530px) {
         font-size: 40px;
     }
-
+    ${(props) =>
+        (props.paddingLeft === 900 &&
+            `
+        @media (max-width: 900px) {
+        padding-left: ${props.padding ? "0px" : "10%"};
+    }
+        `) ||
+        (props.paddingLeft === 960 &&
+            `
+            @media (max-width: 960px) {
+        padding-left: ${props.padding ? "0px" : "10%"};
+    }
+            `)}
     user-select: none;
     & > .blast {
         animation-duration: 1s;
@@ -104,7 +131,7 @@ export const MainContainer = styled.div`
         left: 20%;
         width: 80%;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 335px) {
         top: 17%;
     }
 `;

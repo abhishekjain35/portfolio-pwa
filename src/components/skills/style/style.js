@@ -15,7 +15,7 @@ export const HomeContainer = styled.div`
     color: white;
     height: 93%;
     top: 5%;
-    width: 100%;
+    width: 93%;
     left: 60px;
     position: absolute;
     @media (max-width: 900px) {

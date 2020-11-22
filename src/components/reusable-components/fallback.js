@@ -10,7 +10,7 @@ const Fallback = () => {
             }}
         >
             <h1
-                stygitle={{
+                style={{
                     color: "#08fdd8",
                     margin: "auto",
                 }}

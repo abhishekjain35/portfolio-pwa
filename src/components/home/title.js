@@ -24,7 +24,7 @@ const Title = () => {
     }, []);
 
     return (
-        <TitleContainer className="title">
+        <TitleContainer className="title" padding={true} displayNoneAtSmallScreen={true}>
             {greetings.split("").map((ele, i) => (
                 <Span key={i}>{ele}</Span>
             ))}

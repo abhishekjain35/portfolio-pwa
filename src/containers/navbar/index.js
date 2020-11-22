@@ -5,7 +5,7 @@ const NavbarContainer = () => {
     const [hover, setHover] = useState("");
 
     const handleMouseOver = (value) => {
-        if (window.innerWidth >= 960) {
+        if (window.innerWidth >= 900) {
             setHover(value);
         }
     };
