@@ -16,8 +16,8 @@ const SocialMedia = () => {
                 <Svg
                     enable-background="new 0 0 24 24"
                     width="50"
-                    height="15"
-                    fill={hover === "ghEnter" ? "#08fdd8" : "rgb(77, 77, 78)"}
+                    height="14"
+                    fill={hover === "ghEnter" ? "#08fdd8" : "#909096"}
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -35,8 +35,8 @@ const SocialMedia = () => {
                 <Svg
                     enable-background="new 0 0 24 24"
                     width="50"
-                    height="15"
-                    fill={hover === "lnEnter" ? "#08fdd8" : "rgb(77, 77, 78)"}
+                    height="14"
+                    fill={hover === "lnEnter" ? "#08fdd8" : "#909096"}
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                 >
@@ -64,8 +64,8 @@ const SocialMedia = () => {
                     style={{ enableBackground: "new 0 0 449.956 449.956" }}
                     xmlSpace="preserve"
                     width="50"
-                    height="15"
-                    fill={hover === "twitter" ? "#08fdd8" : "rgb(77, 77, 78)"}
+                    height="14"
+                    fill={hover === "twitter" ? "#08fdd8" : "#909096"}
                 >
                     <g>
                         <path
@@ -109,8 +109,8 @@ const SocialMedia = () => {
                 <Svg
                     aria-hidden="true"
                     width="50"
-                    height="17"
-                    fill={hover === "dev" ? "#08fdd8" : "rgb(77, 77, 78)"}
+                    height="16"
+                    fill={hover === "dev" ? "#08fdd8" : "#909096"}
                     focusable="false"
                     data-prefix="fab"
                     data-icon="dev"

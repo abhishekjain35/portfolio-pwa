@@ -38,7 +38,7 @@ const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
                                 color: `${
                                     route === "/"
                                         ? "#08fdd8"
-                                        : "rgb(77, 77, 78)"
+                                        : "#a5a5a5"
                                 }`,
                             }}
                             data-icon="&#xe904;"
@@ -62,7 +62,7 @@ const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
                                 color: `${
                                     route === "/about"
                                         ? "#08fdd8"
-                                        : "rgb(77, 77, 78)"
+                                        : "#a5a5a5"
                                 }`,
                             }}
                             data-icon="&#xe903;"
@@ -86,7 +86,7 @@ const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
                                 color: `${
                                     route === "/skills"
                                         ? "#08fdd8"
-                                        : "rgb(77, 77, 78)"
+                                        : "#a5a5a5"
                                 }`,
                             }}
                             data-icon="&#xe901;"
@@ -110,7 +110,7 @@ const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
                                 color: `${
                                     route === "/projects"
                                         ? "#08fdd8"
-                                        : "rgb(77, 77, 78)"
+                                        : "#a5a5a5"
                                 }`,
                             }}
                             fontSize="17px"
