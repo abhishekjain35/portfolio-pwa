@@ -6,14 +6,14 @@ const ProjectsContainer = () => {
         {
             name: "Take-notes",
             description:
-                "It's a note-taking web-app. It is made using ReactJs and uses material-UI. It uses QuillJs as the editor for taking notes, Firebase for authentication and cloud firestore as the database. Installable and works offline because it's a PWA(Progressive-Web-App)",
+                "It's a note-taking web-app. It is built with ReactJs, Firebase and material-UI. It uses QuillJs as the editor for taking notes. Installable and works offline because it's a PWA(Progressive-Web-App)",
             link: "https://takenotes1.netlify.app/",
             date: "Jul – Aug, 2020",
         },
         {
             name: "Tshirt-store",
             description:
-                "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, Signup/Sign-in Validation, CRUD operations on products and Categories by admins(With Validation), Users and their carts, Create order and their status, Payments through Stripe and Braintree.",
+                "Made with MERN Stack, this is complete e-commerce t-shirt store with the user and admin panels, Role-based Authentication, Payments through Stripe and Braintree.",
             link: "https://github.com/abhishekjain35/Tshirt-store",
             date: "March - Apr, 2020",
         },
