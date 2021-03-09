@@ -35,7 +35,8 @@ export const CardDiv = styled.div`
 export const Card = styled.div`
   padding: 10px;
   background-color: #2a2a2a;
-  width: 25%;
+  /* width: 25%; */
+  width: 30%;
   box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 10px 0px;
   transition: box-shadow 500ms ease 0s;
   overflow-wrap: break-word;
@@ -57,6 +58,7 @@ export const Card = styled.div`
     font-weight: normal;
     font-size: 26px;
     letter-spacing: 1px;
+    color: #ff2253;
   }
 `;
 
@@ -67,7 +69,6 @@ export const P = styled.p`
   color: #ababab;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.3px;
-
 `;
 
 export const Date = styled.h5`

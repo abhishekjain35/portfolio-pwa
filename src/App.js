@@ -41,7 +41,7 @@ const NotFoundPage = () => (
 
 const App = () => {
   return (
-    <div class="App">
+    <div className="App">
       <Switch>
         <Route exact path="/about" component={AboutPage}></Route>
         <Route exact path="/skills" component={SkillsPage}></Route>
