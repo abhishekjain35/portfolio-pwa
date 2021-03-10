@@ -1,9 +1,10 @@
 import React from "react";
+import {Canvas} from "./style/canvas"
 
-const Canvas = () => {
+const CanvasContainer = () => {
   return (
     <>
-      <div id="tags" style={{display: "none"}}>
+      <div id="tags" style={{ display: "none" }}>
         <ul>
           <li>
             <a data-weight="25" href="https://en.wikipedia.org/wiki/HTML">
@@ -125,14 +126,10 @@ const Canvas = () => {
         </ul>
       </div>
       <div id="myCanvasContainer">
-        <canvas
-          width="600"
-          height="600"
-          id="myCanvas"
-        ></canvas>
+        <Canvas width="600" height="600" id="myCanvas"></Canvas>
       </div>
     </>
   );
 };
 
-export default Canvas;
+export default CanvasContainer;

@@ -73,6 +73,9 @@ export const HomeContainer = styled.section`
   padding-left: 70px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 900px){
+    padding: 70px 0 0 10px;
+  }
 `;
 
 export const UpperTags = styled.header`

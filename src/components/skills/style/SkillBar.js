@@ -79,6 +79,10 @@ export const Container = styled.section`
   flex: 1 1 80%;
   justify-content: space-between;
   padding-top: 25px;
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding-left: 20px;
+  }
 `;
 
 export const LeftContainer = styled.aside`
@@ -87,6 +91,9 @@ export const LeftContainer = styled.aside`
   width: 45%;
   justify-content: space-around;
   margin-left: 7%;
+  @media (max-width: 900px) {
+    width: 93%;
+  }
 `;
 
 export const RightContainer = styled.aside`
@@ -94,6 +101,12 @@ export const RightContainer = styled.aside`
   flex-direction: column;
   width: 45%;
   justify-content: center;
+  @media (max-width: 900px) {
+    width: 95%;
+  }
+  @media (max-width: 600px) {
+    margin-top: 50px;
+  }
 `;
 
 export const Span = styled.span`
@@ -108,6 +121,10 @@ export const ProgressContainer = styled.div`
   height: 75%;
   padding: 0 10px;
   width: 90%;
+  @media (max-width: 600px) {
+    padding: 0 5px;
+    overflow-y: initial;
+  }
 `;
 
 export const SkillContainer = styled.div`
@@ -147,6 +164,9 @@ export const TitleContainer = styled.div`
     position: absolute;
     margin-top: -30px;
     margin-left: -20px;
+    @media (max-width: 900px) {
+      margin-left: 0px;
+    }
     /* left: -15px; */
     /* ${({ customH1 }) =>
       (customH1 === 960 &&
@@ -168,13 +188,9 @@ export const TitleContainer = styled.div`
     position: absolute;
     margin-top: 18px;
     margin-left: 20px;
-    /* @media (max-width: 420px) and (min-width: 330px) {
-      margin-left: -2px;
+    @media (max-width: 300px) {
+      margin-left: 0;
     }
-    @media (max-width: 350px) {
-      display: ${(props) =>
-      props.displayNoneAtSmallScreen ? "none" : "initial"};
-    } */
   }
   /* @media (max-width: 1024px) {
     font-size: 54px;
