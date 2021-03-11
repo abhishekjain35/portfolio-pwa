@@ -35,8 +35,6 @@ const SkillsBar = ({ handleAnimation }) => {
         <TitleContainer
           paddingLeft={900}
           customH1={900}
-          fontSize={45}
-          lineHeight={40}
         >
           <Span onMouseEnter={handleAnimation}>Skills</Span>
           <span> </span>

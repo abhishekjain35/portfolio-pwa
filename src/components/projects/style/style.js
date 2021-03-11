@@ -35,7 +35,6 @@ export const CardDiv = styled.div`
 export const Card = styled.div`
   padding: 10px;
   background-color: #2a2a2a;
-  /* width: 25%; */
   width: 30%;
   box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 10px 0px;
   transition: box-shadow 500ms ease 0s;
@@ -74,7 +73,7 @@ export const P = styled.p`
 export const Date = styled.h5`
   font-size: 14px;
   margin-top: 5px;
-  color: #ababab;
+  /* color: #ababab; */
 `;
 
 export const HomeContainer = styled.div`

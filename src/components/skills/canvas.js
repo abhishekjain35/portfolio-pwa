@@ -126,7 +126,7 @@ const CanvasContainer = () => {
         </ul>
       </div>
       <div id="myCanvasContainer">
-        <Canvas width="600" height="600" id="myCanvas"></Canvas>
+        <Canvas width="600" height="600" id="myCanvas">Loading...</Canvas>
       </div>
     </>
   );

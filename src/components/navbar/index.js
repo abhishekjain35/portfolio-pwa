@@ -12,12 +12,12 @@ import {
 import SocialMedia from "./socialMedia";
 import Logo from "./logo";
 
-const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave }) => {
+const NavbarComponent = ({ hover, handleMouseOver, handleMouseLeave, handleLogoClick }) => {
     let route = useLocation().pathname;
 
     return (
         <NavContainer>
-            <LogoDiv>
+            <LogoDiv onClick={handleLogoClick}>
                 <Logo />
             </LogoDiv>
             <NavIcon>
