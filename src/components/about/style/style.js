@@ -68,7 +68,6 @@ export const Section = styled.section`
     }
     & > div:nth-of-type(3):after {
         position: absolute;
-        /* left: -290px; */
         content: url(${NodeIcon});
     }
     & > div:nth-of-type(4) {
