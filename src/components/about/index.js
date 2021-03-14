@@ -1,11 +1,10 @@
 import React from "react";
 import {
-  TitleContainer,
   HomeContainer,
   BottomTags,
   BodySpan,
 } from "../reusable-components/style";
-import { P, Section, MainContainer, Span } from "./style/style";
+import { P, Section, MainContainer, Span, TitleContainer } from "./style/style";
 
 const AboutComponent = ({ handleAnimation }) => {
   return (

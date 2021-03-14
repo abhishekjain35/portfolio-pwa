@@ -65,7 +65,7 @@ export const P = styled.p`
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
-  /* color: #ababab; */
+  color: #ababab;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.3px;
 `;

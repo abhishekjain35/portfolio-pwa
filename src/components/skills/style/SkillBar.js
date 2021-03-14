@@ -32,9 +32,6 @@ export const RightContainer = styled.aside`
   @media (max-width: 900px) {
     width: 95%;
   }
-  @media (max-width: 600px) {
-    margin-top: 50px;
-  }
 `;
 
 export const Span = styled.span`
@@ -51,6 +48,7 @@ export const ProgressContainer = styled.div`
   width: 90%;
   @media (max-width: 600px) {
     padding: 20px 5px;
+    height: initial;
   }
 `;
 
