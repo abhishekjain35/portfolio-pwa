@@ -99,7 +99,7 @@ export const MainContainer = styled.div`
   @media (max-width: 960px) {
     left: 14%;
     width: 85%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     height: 73%;
   }
   @media (max-width: 390px) {
@@ -125,7 +125,7 @@ export const TitleContainer = styled.div`
     margin-top: -40px;
     left: -15px;
     @media (max-width: 960px) {
-      margin-top: -10px;
+      margin-top: -25px;
       left: 0px;
     }
   }

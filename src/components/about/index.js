@@ -36,8 +36,16 @@ const AboutComponent = ({ handleAnimation }) => {
           new advancements for these technologies.
         </P>
         <P padd="5px">
-          Apart from that, I also write articles once in a while to explain the
-          tech that I learn.
+          Apart from that, I also write{" "}
+          <a
+            href="https://dev.to/abhishekjain35"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "rgb(255, 34, 83)" }}
+          >
+            articles
+          </a>{" "}
+          once in a while to explain the tech that I learn.
         </P>
       </MainContainer>
       <Section>
