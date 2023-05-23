@@ -1,4 +1,4 @@
-Hey there 👋, visit my portfolio PWA(progressive-web-app) at [Abhishek Jain](https://abhishekdev.tech/)
+Hey there 👋, visit my portfolio PWA(progressive-web-app) at [Abhishek Jain](https://abhishekdev.netlify.app/) 
 
 ## How to run locally
 
